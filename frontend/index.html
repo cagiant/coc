@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My clan #28PL2YCQ</title>
+</head>
+<body>
+<div id="app">
+    <div style="padding: 20px;">
+        <template>
+            <i-table :loading="isLoading" :columns="summaryColumns" :data="summaryData" border stripe></i-table>
+        </template>
+    </div>
+</div>
+</body>
+</html>
+<script src="https://unpkg.com/axios@0.18.0/dist/axios.js"></script>
+<script src="https://unpkg.com/js-cookie@2.2.0/src/js.cookie.js"></script>
+<script src="https://unpkg.com/vue@2.5.17/dist/vue.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/iview/3.5.4/iview.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/iview@3.5.4/dist/styles/iview.css">
+<script src="https://www.everstray.com/cdn/QuickFrontend/SinriQF/dist/SinriQF-2.0.js"></script>
+<script>
+    new Vue ({
+        el: '#app',
+        data() {
+            return {
+                isLoading: false,
+                summaryColumns: [
+                    {
+                        title: '玩家昵称',
+                        key: 'name',
+                        align: 'center',
+                    },
+                    {
+                        title: '进攻',
+                        align: 'center',
+                        children: [
+                            {
+                                title: '总星',
+                                align: 'center',
+                                key:'total_star',
+                                "sortable": true,
+                            },
+                            {
+                                title: '均星',
+                                align: 'center',
+                                key:'avg_attack_star',
+                                "sortable": true,
+                                filters: [
+                                    {
+                                        label: '大于等于2',
+                                        value: 1
+                                    },
+                                    {
+                                        label: '小于2',
+                                        value: 2
+                                    }
+                                ],
+                                filterMultiple: false,
+                                filterMethod (value, row) {
+                                    if (value === 1) {
+                                        return row.avg_attack_star >= 2;
+                                    } else if (value === 2) {
+                                        return row.avg_attack_star < 2;
+                                    }
+                                }
+                            },
+                            {
+                                title: '摧毁率',
+                                align: 'center',
+                                key: 'destruction_percentage',
+                                "sortable": true,
+                            }
+                        ]
+                    },
+                    {
+                        title: '防守',
+                        align: 'center',
+                        children: [
+                            {
+                                title: '总星',
+                                align: 'center',
+                                key: 'defense_total_star',
+                                "sortable": true,
+                            },
+                            {
+                                title: '均星',
+                                align: 'center',
+                                key: 'avg_defense_star',
+                                "sortable": true,
+                            },
+                            {
+                                title: '摧毁率',
+                                align: 'center',
+                                key: 'avg_defense_percent',
+                                "sortable": true,
+                            }
+                        ]
+                    },
+                    {
+                        title: '攻防比',
+                        key: 'adr',
+                        align: 'center',
+                        "sortable": true,
+                        filters: [
+                            {
+                                label: '大于等于1',
+                                value: 1
+                            },
+                            {
+                                label: '小于1',
+                                value: 2
+                            }
+                        ],
+                        filterMultiple: false,
+                        filterMethod (value, row) {
+                            if (value === 1) {
+                                return row.adr >= 1;
+                            } else if (value === 2) {
+                                return row.adr < 1;
+                            }
+                        }
+                    }
+                ],
+                summaryData: [],
+            }
+        },
+        methods: {
+            getData() {
+                axios.get('/data')
+                    .then((res) => {
+                        let result = res.data;
+                        console.log(result);
+                        if (!result) {
+                            this.infoError('获取数据失败，请重试');
+                        } else {
+                            if (result.code == 1) {
+                                this.summaryData = result.data;
+                            } else {
+                                this.infoError(result.msg ? result.msg : '获取数据失败，请刷新');
+                            }
+                        }
+                    })
+            },
+            infoSuccess(msg) {
+                this.$Message.config({});
+                this.$Message.success(msg);
+            },
+            infoError(msg, duration = 3) {
+                this.$Message.config({
+                    duration: duration
+                });
+                this.$Message.error(msg);
+            },
+        },
+        created() {
+            this.getData();
+        }
+    })
+</script>

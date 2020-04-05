@@ -1,0 +1,680 @@
+{
+    "state": "inWar",
+    "teamSize": 15,
+    "preparationStartTime": "20200402T092753.000Z",
+    "startTime": "20200403T092751.000Z",
+    "endTime": "20200404T092751.000Z",
+    "clan": {
+        "tag": "#28PL2YCQ",
+        "name": "Alliance force",
+        "badgeUrls": {
+            "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+            "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+            "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+        },
+        "clanLevel": 15,
+        "attacks": 12,
+        "stars": 23,
+        "destructionPercentage": 61.4,
+        "members": [
+            {
+                "tag": "#2PY90JYJ",
+                "name": "天菜一号",
+                "townhallLevel": 13,
+                "mapPosition": 9,
+                "attacks": [
+                    {
+                        "attackerTag": "#2PY90JYJ",
+                        "defenderTag": "#2LGP8UY20",
+                        "stars": 2,
+                        "destructionPercentage": 86,
+                        "order": 8
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#CCP0LV0Q",
+                    "defenderTag": "#2PY90JYJ",
+                    "stars": 2,
+                    "destructionPercentage": 85,
+                    "order": 16
+                }
+            },
+            {
+                "tag": "#828RPR2UJ",
+                "name": "世界没有尽头",
+                "townhallLevel": 13,
+                "mapPosition": 12,
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#228JU2JYY",
+                    "defenderTag": "#828RPR2UJ",
+                    "stars": 2,
+                    "destructionPercentage": 72,
+                    "order": 18
+                }
+            },
+            {
+                "tag": "#9PRCCJVLR",
+                "name": "后宫",
+                "townhallLevel": 13,
+                "mapPosition": 15,
+                "attacks": [
+                    {
+                        "attackerTag": "#9PRCCJVLR",
+                        "defenderTag": "#R8YJRUGP",
+                        "stars": 1,
+                        "destructionPercentage": 80,
+                        "order": 25
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#R8YJRUGP",
+                    "defenderTag": "#9PRCCJVLR",
+                    "stars": 3,
+                    "destructionPercentage": 100,
+                    "order": 2
+                }
+            },
+            {
+                "tag": "#Y29VRLULV",
+                "name": "戴尔笔记本",
+                "townhallLevel": 13,
+                "mapPosition": 2,
+                "attacks": [
+                    {
+                        "attackerTag": "#Y29VRLULV",
+                        "defenderTag": "#CCP0LV0Q",
+                        "stars": 2,
+                        "destructionPercentage": 61,
+                        "order": 5
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#20LY20VY0",
+                    "defenderTag": "#Y29VRLULV",
+                    "stars": 2,
+                    "destructionPercentage": 85,
+                    "order": 12
+                }
+            },
+            {
+                "tag": "#982LLPLVQ",
+                "name": "天菜二号",
+                "townhallLevel": 13,
+                "mapPosition": 17,
+                "attacks": [
+                    {
+                        "attackerTag": "#982LLPLVQ",
+                        "defenderTag": "#LGQJVCCR",
+                        "stars": 3,
+                        "destructionPercentage": 100,
+                        "order": 9
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#J9UPPGJJ",
+                    "defenderTag": "#982LLPLVQ",
+                    "stars": 2,
+                    "destructionPercentage": 69,
+                    "order": 4
+                }
+            },
+            {
+                "tag": "#898RCJGPY",
+                "name": "困兽睡不醒",
+                "townhallLevel": 13,
+                "mapPosition": 10,
+                "attacks": [
+                    {
+                        "attackerTag": "#898RCJGPY",
+                        "defenderTag": "#2YC2JJ8CL",
+                        "stars": 2,
+                        "destructionPercentage": 97,
+                        "order": 27
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#LGQJVCCR",
+                    "defenderTag": "#898RCJGPY",
+                    "stars": 2,
+                    "destructionPercentage": 63,
+                    "order": 13
+                }
+            },
+            {
+                "tag": "#8VP29RCU2",
+                "name": "Seven",
+                "townhallLevel": 13,
+                "mapPosition": 3,
+                "attacks": [
+                    {
+                        "attackerTag": "#8VP29RCU2",
+                        "defenderTag": "#YLY0RLUQ",
+                        "stars": 2,
+                        "destructionPercentage": 98,
+                        "order": 22
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#R0JU8L2V",
+                    "defenderTag": "#8VP29RCU2",
+                    "stars": 3,
+                    "destructionPercentage": 100,
+                    "order": 1
+                }
+            },
+            {
+                "tag": "#8LVUGPLQP",
+                "name": "大秦王朝",
+                "townhallLevel": 13,
+                "mapPosition": 13,
+                "attacks": [
+                    {
+                        "attackerTag": "#8LVUGPLQP",
+                        "defenderTag": "#LCCY9PYY",
+                        "stars": 2,
+                        "destructionPercentage": 75,
+                        "order": 26
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#YLY0RLUQ",
+                    "defenderTag": "#8LVUGPLQP",
+                    "stars": 3,
+                    "destructionPercentage": 100,
+                    "order": 3
+                }
+            },
+            {
+                "tag": "#Y8J0GCLCP",
+                "name": "联想笔记本",
+                "townhallLevel": 13,
+                "mapPosition": 18,
+                "attacks": [
+                    {
+                        "attackerTag": "#Y8J0GCLCP",
+                        "defenderTag": "#228JU2JYY",
+                        "stars": 1,
+                        "destructionPercentage": 44,
+                        "order": 7
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#29QRUQLCL",
+                    "defenderTag": "#Y8J0GCLCP",
+                    "stars": 2,
+                    "destructionPercentage": 95,
+                    "order": 14
+                }
+            },
+            {
+                "tag": "#8R2L89UV9",
+                "name": "陌秋",
+                "townhallLevel": 13,
+                "mapPosition": 1,
+                "attacks": [
+                    {
+                        "attackerTag": "#8R2L89UV9",
+                        "defenderTag": "#29QRUQLCL",
+                        "stars": 2,
+                        "destructionPercentage": 78,
+                        "order": 10
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#2LGP8UY20",
+                    "defenderTag": "#8R2L89UV9",
+                    "stars": 2,
+                    "destructionPercentage": 78,
+                    "order": 19
+                }
+            },
+            {
+                "tag": "#9URPQV89Y",
+                "name": "K先生",
+                "townhallLevel": 13,
+                "mapPosition": 14,
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#2JPUU9PU2",
+                    "defenderTag": "#9URPQV89Y",
+                    "stars": 2,
+                    "destructionPercentage": 88,
+                    "order": 15
+                }
+            },
+            {
+                "tag": "#28QQYURJV",
+                "name": "陌者",
+                "townhallLevel": 13,
+                "mapPosition": 7,
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#YLVGGVQU",
+                    "defenderTag": "#28QQYURJV",
+                    "stars": 2,
+                    "destructionPercentage": 80,
+                    "order": 6
+                }
+            },
+            {
+                "tag": "#9PRUYYVV",
+                "name": "蛋蛋海的春",
+                "townhallLevel": 13,
+                "mapPosition": 11,
+                "attacks": [
+                    {
+                        "attackerTag": "#9PRUYYVV",
+                        "defenderTag": "#R0JU8L2V",
+                        "stars": 2,
+                        "destructionPercentage": 68,
+                        "order": 24
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#2YY2Q00V",
+                    "defenderTag": "#9PRUYYVV",
+                    "stars": 2,
+                    "destructionPercentage": 90,
+                    "order": 11
+                }
+            },
+            {
+                "tag": "#2LUJ00L08",
+                "name": "connan",
+                "townhallLevel": 13,
+                "mapPosition": 8,
+                "attacks": [
+                    {
+                        "attackerTag": "#2LUJ00L08",
+                        "defenderTag": "#J9UPPGJJ",
+                        "stars": 2,
+                        "destructionPercentage": 71,
+                        "order": 23
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#LCCY9PYY",
+                    "defenderTag": "#2LUJ00L08",
+                    "stars": 2,
+                    "destructionPercentage": 66,
+                    "order": 21
+                }
+            },
+            {
+                "tag": "#822QPL9CP",
+                "name": "AVA",
+                "townhallLevel": 13,
+                "mapPosition": 5,
+                "attacks": [
+                    {
+                        "attackerTag": "#822QPL9CP",
+                        "defenderTag": "#20LY20VY0",
+                        "stars": 2,
+                        "destructionPercentage": 63,
+                        "order": 20
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#2YC2JJ8CL",
+                    "defenderTag": "#822QPL9CP",
+                    "stars": 2,
+                    "destructionPercentage": 91,
+                    "order": 17
+                }
+            }
+        ]
+    },
+    "opponent": {
+        "tag": "#G2RVPJVP",
+        "name": "The Fire Nation",
+        "badgeUrls": {
+            "small": "https://api-assets.clashofclans.com/badges/70/ZsTnseA8l7yazY2IxZ5OZrMTRBMU_pHUwhSU8GDzz3M.png",
+            "large": "https://api-assets.clashofclans.com/badges/512/ZsTnseA8l7yazY2IxZ5OZrMTRBMU_pHUwhSU8GDzz3M.png",
+            "medium": "https://api-assets.clashofclans.com/badges/200/ZsTnseA8l7yazY2IxZ5OZrMTRBMU_pHUwhSU8GDzz3M.png"
+        },
+        "clanLevel": 14,
+        "attacks": 15,
+        "stars": 33,
+        "destructionPercentage": 84.13333333333334,
+        "members": [
+            {
+                "tag": "#YLVGGVQU",
+                "name": "Fear Perdition",
+                "townhallLevel": 13,
+                "mapPosition": 10,
+                "attacks": [
+                    {
+                        "attackerTag": "#YLVGGVQU",
+                        "defenderTag": "#28QQYURJV",
+                        "stars": 2,
+                        "destructionPercentage": 80,
+                        "order": 6
+                    }
+                ],
+                "opponentAttacks": 0
+            },
+            {
+                "tag": "#CCP0LV0Q",
+                "name": "eXo",
+                "townhallLevel": 13,
+                "mapPosition": 2,
+                "attacks": [
+                    {
+                        "attackerTag": "#CCP0LV0Q",
+                        "defenderTag": "#2PY90JYJ",
+                        "stars": 2,
+                        "destructionPercentage": 85,
+                        "order": 16
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#Y29VRLULV",
+                    "defenderTag": "#CCP0LV0Q",
+                    "stars": 2,
+                    "destructionPercentage": 61,
+                    "order": 5
+                }
+            },
+            {
+                "tag": "#J9UPPGJJ",
+                "name": "Olaf",
+                "townhallLevel": 13,
+                "mapPosition": 14,
+                "attacks": [
+                    {
+                        "attackerTag": "#J9UPPGJJ",
+                        "defenderTag": "#982LLPLVQ",
+                        "stars": 2,
+                        "destructionPercentage": 69,
+                        "order": 4
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#2LUJ00L08",
+                    "defenderTag": "#J9UPPGJJ",
+                    "stars": 2,
+                    "destructionPercentage": 71,
+                    "order": 23
+                }
+            },
+            {
+                "tag": "#2YC2JJ8CL",
+                "name": "DirkDiggler",
+                "townhallLevel": 13,
+                "mapPosition": 12,
+                "attacks": [
+                    {
+                        "attackerTag": "#2YC2JJ8CL",
+                        "defenderTag": "#822QPL9CP",
+                        "stars": 2,
+                        "destructionPercentage": 91,
+                        "order": 17
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#898RCJGPY",
+                    "defenderTag": "#2YC2JJ8CL",
+                    "stars": 2,
+                    "destructionPercentage": 97,
+                    "order": 27
+                }
+            },
+            {
+                "tag": "#R8YJRUGP",
+                "name": "Lucifer",
+                "townhallLevel": 13,
+                "mapPosition": 8,
+                "attacks": [
+                    {
+                        "attackerTag": "#R8YJRUGP",
+                        "defenderTag": "#9PRCCJVLR",
+                        "stars": 3,
+                        "destructionPercentage": 100,
+                        "order": 2
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#9PRCCJVLR",
+                    "defenderTag": "#R8YJRUGP",
+                    "stars": 1,
+                    "destructionPercentage": 80,
+                    "order": 25
+                }
+            },
+            {
+                "tag": "#YLY0RLUQ",
+                "name": "Dɘvɩɭ Dʌɗɗ¥",
+                "townhallLevel": 13,
+                "mapPosition": 9,
+                "attacks": [
+                    {
+                        "attackerTag": "#YLY0RLUQ",
+                        "defenderTag": "#8LVUGPLQP",
+                        "stars": 3,
+                        "destructionPercentage": 100,
+                        "order": 3
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#8VP29RCU2",
+                    "defenderTag": "#YLY0RLUQ",
+                    "stars": 2,
+                    "destructionPercentage": 98,
+                    "order": 22
+                }
+            },
+            {
+                "tag": "#29QRUQLCL",
+                "name": "Skills",
+                "townhallLevel": 13,
+                "mapPosition": 3,
+                "attacks": [
+                    {
+                        "attackerTag": "#29QRUQLCL",
+                        "defenderTag": "#Y8J0GCLCP",
+                        "stars": 2,
+                        "destructionPercentage": 95,
+                        "order": 14
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#8R2L89UV9",
+                    "defenderTag": "#29QRUQLCL",
+                    "stars": 2,
+                    "destructionPercentage": 78,
+                    "order": 10
+                }
+            },
+            {
+                "tag": "#2JPUU9PU2",
+                "name": "Ray",
+                "townhallLevel": 13,
+                "mapPosition": 13,
+                "attacks": [
+                    {
+                        "attackerTag": "#2JPUU9PU2",
+                        "defenderTag": "#9URPQV89Y",
+                        "stars": 2,
+                        "destructionPercentage": 88,
+                        "order": 15
+                    }
+                ],
+                "opponentAttacks": 0
+            },
+            {
+                "tag": "#2LGP8UY20",
+                "name": "Fear Doc",
+                "townhallLevel": 13,
+                "mapPosition": 1,
+                "attacks": [
+                    {
+                        "attackerTag": "#2LGP8UY20",
+                        "defenderTag": "#8R2L89UV9",
+                        "stars": 2,
+                        "destructionPercentage": 78,
+                        "order": 19
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#2PY90JYJ",
+                    "defenderTag": "#2LGP8UY20",
+                    "stars": 2,
+                    "destructionPercentage": 86,
+                    "order": 8
+                }
+            },
+            {
+                "tag": "#R0JU8L2V",
+                "name": "Burnz",
+                "townhallLevel": 13,
+                "mapPosition": 5,
+                "attacks": [
+                    {
+                        "attackerTag": "#R0JU8L2V",
+                        "defenderTag": "#8VP29RCU2",
+                        "stars": 3,
+                        "destructionPercentage": 100,
+                        "order": 1
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#9PRUYYVV",
+                    "defenderTag": "#R0JU8L2V",
+                    "stars": 2,
+                    "destructionPercentage": 68,
+                    "order": 24
+                }
+            },
+            {
+                "tag": "#LGQJVCCR",
+                "name": "Zoinq",
+                "townhallLevel": 13,
+                "mapPosition": 15,
+                "attacks": [
+                    {
+                        "attackerTag": "#LGQJVCCR",
+                        "defenderTag": "#898RCJGPY",
+                        "stars": 2,
+                        "destructionPercentage": 63,
+                        "order": 13
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#982LLPLVQ",
+                    "defenderTag": "#LGQJVCCR",
+                    "stars": 3,
+                    "destructionPercentage": 100,
+                    "order": 9
+                }
+            },
+            {
+                "tag": "#20LY20VY0",
+                "name": "**ST⭐️®-LØRD**",
+                "townhallLevel": 13,
+                "mapPosition": 4,
+                "attacks": [
+                    {
+                        "attackerTag": "#20LY20VY0",
+                        "defenderTag": "#Y29VRLULV",
+                        "stars": 2,
+                        "destructionPercentage": 85,
+                        "order": 12
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#822QPL9CP",
+                    "defenderTag": "#20LY20VY0",
+                    "stars": 2,
+                    "destructionPercentage": 63,
+                    "order": 20
+                }
+            },
+            {
+                "tag": "#228JU2JYY",
+                "name": "Fear Burnz",
+                "townhallLevel": 13,
+                "mapPosition": 7,
+                "attacks": [
+                    {
+                        "attackerTag": "#228JU2JYY",
+                        "defenderTag": "#828RPR2UJ",
+                        "stars": 2,
+                        "destructionPercentage": 72,
+                        "order": 18
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#Y8J0GCLCP",
+                    "defenderTag": "#228JU2JYY",
+                    "stars": 1,
+                    "destructionPercentage": 44,
+                    "order": 7
+                }
+            },
+            {
+                "tag": "#LCCY9PYY",
+                "name": "Epi",
+                "townhallLevel": 13,
+                "mapPosition": 6,
+                "attacks": [
+                    {
+                        "attackerTag": "#LCCY9PYY",
+                        "defenderTag": "#2LUJ00L08",
+                        "stars": 2,
+                        "destructionPercentage": 66,
+                        "order": 21
+                    }
+                ],
+                "opponentAttacks": 1,
+                "bestOpponentAttack": {
+                    "attackerTag": "#8LVUGPLQP",
+                    "defenderTag": "#LCCY9PYY",
+                    "stars": 2,
+                    "destructionPercentage": 75,
+                    "order": 26
+                }
+            },
+            {
+                "tag": "#2YY2Q00V",
+                "name": "Fear Wolf",
+                "townhallLevel": 13,
+                "mapPosition": 11,
+                "attacks": [
+                    {
+                        "attackerTag": "#2YY2Q00V",
+                        "defenderTag": "#9PRUYYVV",
+                        "stars": 2,
+                        "destructionPercentage": 90,
+                        "order": 11
+                    }
+                ],
+                "opponentAttacks": 0
+            }
+        ]
+    },
+    "warStartTime": "20200403T092751.000Z"
+}

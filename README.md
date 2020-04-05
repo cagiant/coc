@@ -1,2 +1,0 @@
-# coc
-my clan data

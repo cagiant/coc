@@ -1,0 +1,19 @@
+<?php
+
+namespace coc\config;
+
+class Config
+{
+    public static $token = '';//coc api token
+    public static $myClanTag = '';//clan 标签
+    public static $apiGetLeagueGroupInfoUrl = "https://api.clashofclans.com/v1/clans/%s/currentwar/leaguegroup";
+    public static $apiGetWarInfoUrl = "https://api.clashofclans.com/v1/clanwarleagues/wars/%s";
+    public static $dbConfig = [
+        'host'      => '',
+        'user_name' => '',
+        'password'  => '',
+        'database'  => '',
+        'port'      => 3306,
+        'charset'   => 'utf8',
+    ];
+}
