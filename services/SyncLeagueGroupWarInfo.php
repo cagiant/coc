@@ -59,6 +59,31 @@ class SyncLeagueGroupWarInfo extends AbstractSyncInfo
         }
     }
 
+    public function syncOnce()
+    {
+        $sql = "
+            SELECT war.`tag` from `coc_league_group_war_clan_info`  clan
+            join `coc_league_group_wars`  war on clan.`war_tag`  = war.`tag` 
+            where clan.`clan_tag`  = '#28PL2YCQ'
+            and war.`state`  = 'inWar'";
+
+        $tag = MyDB::db()->getOne($sql);
+
+        if (!empty($tag)) {
+            $url = sprintf(Config::$apiGetWarInfoUrl , urlencode($tag));
+            $data = $this->getData($url);
+            if (!empty($data['state'])) {
+                $this->saveWarData($data, $tag);
+                echo 'success';
+            } else {
+                echo "api return wrong data:" . json_encode($data);
+            }
+        } else {
+            echo 'no valid data found.';
+        }
+        exit();
+    }
+
     /**
      * @param $data
      * @param $warTag
