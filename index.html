@@ -18,9 +18,9 @@
         <el-table-column label="防守" align="center" width="300">
             <el-table-column label="总星" prop="defense_total_star" align="center" sortable></el-table-column>
             <el-table-column label="均星" prop="avg_defense_star" align="center" sortable></el-table-column>
-            <el-table-column label="摧毁率" prop="avg_defense_percent" align="center" sortable></el-table-column>
+            <el-table-column label="摧毁率" prop="defense_destruction_percentage" align="center" sortable></el-table-column>
         </el-table-column>
-        <el-table-column fixed="right" label="攻防比" prop="adr" sortable="true" :filters="[{text: '大于等于1',value: 1},{text: '小于1',value: 2}]" :filter-method="filterAdr"></el-table-column>
+        <el-table-column fixed="right" label="攻防比" prop="adr" sortable="true" align="center" :filters="[{text: '大于等于1',value: 1},{text: '小于1',value: 2}]" :filter-method="filterAdr"></el-table-column>
     </el-table>
 </div>
 </body>
