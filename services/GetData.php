@@ -20,6 +20,13 @@ class GetData
         return $this->summaryData($attackInfo, $defenseInfo);
     }
 
+    /**
+     * 进攻时，如果没有打，算打了零星，总进攻次数按照上场次数来算。
+     * @param $season
+     * @return bool
+     * author: guokaiqiang
+     * date: 2020/4/6 13:35
+     */
     private function getAttackInfo($season)
     {
         $sql = sprintf("
@@ -57,6 +64,13 @@ class GetData
         return MyDB::db()->getAll($sql);
     }
 
+    /**
+     * 防守时，如果没被打，跳过该次计算。上场次数不计入总被打次数。
+     * @param $season
+     * @return bool
+     * author: guokaiqiang
+     * date: 2020/4/6 13:35
+     */
     private function getDefenseInfo($season)
     {
         $sql = sprintf("
@@ -82,6 +96,14 @@ class GetData
         return MyDB::db()->getAll($sql);
     }
 
+    /**
+     * 汇总信息，然后按照攻防比从高到低排序。攻防比= 平均进攻星星/平均防守星星
+     * @param $attackInfo
+     * @param $defenseInfo
+     * @return array
+     * author: guokaiqiang
+     * date: 2020/4/6 13:33
+     */
     private function summaryData($attackInfo, $defenseInfo)
     {
         $attackTagHash  = [];
