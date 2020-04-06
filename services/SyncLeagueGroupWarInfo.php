@@ -13,11 +13,29 @@ use coc\utils\TimeUtil;
 class SyncLeagueGroupWarInfo extends AbstractSyncInfo
 {
 
+    /**
+     * 获取需要更新信息的战争，分为3个部分
+     * 1、战争已开始未结束的
+     * 2、战争已结束，但是数据还没获取到的
+     * 3、战争状态尚未获取，且已经有明确tag的
+     * @throws \Exception
+     * author: guokaiqiang
+     * date: 2020/4/6 10:54
+     */
     public function syncInfo()
     {
 
-        $sql = sprintf("SELECT `tag` FROM `coc_league_group_wars` WHERE state = '%s' or (state = '%s' and end_time > updated)  order by created desc",
-            Constants::WAR_STATE_IN_WAR,
+        $sql = sprintf("
+            SELECT 
+                `tag`
+            FROM
+                `coc_league_group_wars`
+            WHERE
+                state != '%s' AND tag != '#0'
+                    AND `war_start_time` < NOW()
+                    OR (state = '%s'AND end_time > updated)
+                    OR (state IS NULL AND tag != '#0')",
+            Constants::WAR_STATE_WAR_END,
             Constants::WAR_STATE_WAR_END
         );
         $warTags = MyDB::db()->getCol($sql);
@@ -41,6 +59,12 @@ class SyncLeagueGroupWarInfo extends AbstractSyncInfo
         }
     }
 
+    /**
+     * @param $data
+     * @param $warTag
+     * author: guokaiqiang
+     * date: 2020/4/6 10:54
+     */
     private function saveWarData($data, $warTag)
     {
         Logger::log(sprintf("更新战争信息....标签 %s", $warTag));
@@ -77,7 +101,7 @@ class SyncLeagueGroupWarInfo extends AbstractSyncInfo
                 $data['opponent']['tag'],
                 $warTag
         );
-        
+
         MyDB::db()->exec($sql);
     }
 
@@ -88,7 +112,7 @@ class SyncLeagueGroupWarInfo extends AbstractSyncInfo
                 $v = TimeUtil::convertUTC2LocalTime(substr($v, 0, -5));
             }
         }
-        
+
         return $data;
     }
 
