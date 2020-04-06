@@ -1,0 +1,83 @@
+<!--index page with element ui-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- import CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui@2.13.0/lib/theme-chalk/index.css">
+</head>
+<body>
+<div id="app">
+    <el-table :data="summaryData" style="width: 100%;" stripe>
+        <el-table-column prop="name" label="昵称" align="center" fixed></el-table-column>
+        <el-table-column label="进攻" align="center" width="300">
+            <el-table-column prop="total_star" label="总星" align="center" sortable></el-table-column>
+            <el-table-column prop="avg_attack_star" label="均星" align="center" sortable :filters="[{text: '大于等于2',value: 1},{text: '小于2',value: 2}]" :filter-method="filterAttackStar"></el-table-column>
+            <el-table-column prop="destruction_percentage" label="摧毁率" align="center" sortable></el-table-column>
+        </el-table-column>
+        <el-table-column label="防守" align="center" width="300">
+            <el-table-column label="总星" prop="defense_total_star" align="center" sortable></el-table-column>
+            <el-table-column label="均星" prop="avg_defense_star" align="center" sortable></el-table-column>
+            <el-table-column label="摧毁率" prop="avg_defense_percent" align="center" sortable></el-table-column>
+        </el-table-column>
+        <el-table-column fixed="right" label="攻防比" prop="adr" sortable="true" :filters="[{text: '大于等于1',value: 1},{text: '小于1',value: 2}]" :filter-method="filterAdr"></el-table-column>
+    </el-table>
+</div>
+</body>
+<script src="https://unpkg.com/axios@0.18.0/dist/axios.js"></script>
+<!-- import Vue before Element -->
+<script src="https://unpkg.com/vue@2.5.17/dist/vue.js"></script>
+<!-- import JavaScript -->
+<script src="https://unpkg.com/element-ui@2.13.0/lib/index.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: function() {
+            return {
+                summaryData: [],
+            }
+        },
+        methods: {
+            getData() {
+                axios.get('/data')
+                    .then((res) => {
+                        let result = res.data;
+                        console.log(result);
+                        if (!result) {
+                            this.infoError('获取数据失败，请重试');
+                        } else {
+                            if (result.code == 1) {
+                                this.summaryData = result.data;
+                            } else {
+                                this.infoError(result.msg ? result.msg : '获取数据失败，请刷新');
+                            }
+                        }
+                    })
+            },
+            infoError(msg, duration = 3) {
+                this.$message.error({
+                    message: msg,
+                    duration: duration,
+                });
+            },
+            filterAttackStar(value, row) {
+                if (value === 1) {
+                    return row.avg_attack_star >= 2;
+                } else if (value === 2) {
+                    return row.avg_attack_star < 2;
+                }
+            },
+            filterAdr(value, row) {
+                if (value === 1) {
+                    return row.adr >= 1;
+                } else if (value === 2) {
+                    return row.adr < 1;
+                }
+            }
+        },
+        created() {
+            this.getData();
+        }
+    })
+</script>
+</html>
