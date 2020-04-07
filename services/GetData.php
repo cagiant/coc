@@ -126,6 +126,7 @@ class GetData
         ];
 
         foreach ($attackInfo as $attack) {
+            $attack['total_star'] = (int) $attack['total_star'];
             $attack['avg_attack_star']        = Math::division($attack['total_star'], $attack['total_attack']);
             $attack['avg_attack_percent']     = Math::division($attack['destruction_percentage'], $attack['total_attack']);
             $attack['destruction_percentage'] = (int)$attack['destruction_percentage'];
@@ -133,6 +134,7 @@ class GetData
         }
 
         foreach ($defenseInfo as $defense) {
+            $defense['defense_total_star'] = (int) $defense['defense_total_star'];
             $defense['avg_defense_star']               = Math::division($defense['defense_total_star'], $defense['defense_total_attack']);
             $defense['avg_defense_percent']            = Math::division($defense['defense_destruction_percentage'], $defense['defense_total_attack']);
             $defense['defense_destruction_percentage'] = (int)$defense['defense_destruction_percentage'];

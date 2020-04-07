@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set("Asia/Shanghai");
 
 spl_autoload_register(function ($className) {
     $filePath = getFilePathOfClassNameWithPSR0(

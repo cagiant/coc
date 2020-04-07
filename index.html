@@ -20,7 +20,7 @@
             <el-table-column label="均星" prop="avg_defense_star" align="center" sortable></el-table-column>
             <el-table-column label="摧毁率" prop="defense_destruction_percentage" align="center" sortable></el-table-column>
         </el-table-column>
-        <el-table-column fixed="right" label="攻防比" prop="adr" sortable="true" align="center" :filters="[{text: '大于等于1',value: 1},{text: '小于1',value: 2}]" :filter-method="filterAdr"></el-table-column>
+        <el-table-column fixed="right" label="攻防比" prop="adr" sortable align="center" :filters="[{text: '大于等于1',value: 1},{text: '小于1',value: 2}]" :filter-method="filterAdr"></el-table-column>
     </el-table>
 </div>
 </body>
@@ -66,6 +66,20 @@
                         this.getData();
                         console.log(res.data);
                     })
+            },
+            filterAttackStar(value, row) {
+                if (value === 1) {
+                    return row.avg_attack_star >= 2;
+                } else if (value === 2) {
+                    return row.avg_attack_star < 2;
+                }
+            },
+            filterAdr(value, row) {
+                if (value === 1) {
+                    return row.adr >= 1;
+                } else if (value === 2) {
+                    return row.adr < 1;
+                }
             }
         },
         created() {
