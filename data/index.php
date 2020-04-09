@@ -6,11 +6,15 @@ use coc\constants\Constants;
 
 $a           = new GetData();
 $summaryData = $a->getSummaryData();
+$detailData  = $a->getDetailData();
 if (!empty($summaryData)) {
     echo json_encode(
         [
             'code' => Constants::API_RETURN_CODE_OK,
-            'data' =>$summaryData,
+            'data' => [
+                'summary' => $summaryData,
+                'detail'  => $detailData,
+            ]
         ]
     );
 } else {

@@ -20,6 +20,42 @@ class GetData
         return $this->summaryData($attackInfo, $defenseInfo);
     }
 
+    public function getDetailData()
+    {
+        return $this->getWarDetail();
+    }
+
+    public function getWarDetail()
+    {
+        $sql = sprintf("
+            SELECT 
+                base_member_info.`name`,
+                war_details.stars,
+                war_details.`destruction_percentage`,
+                IFNULL(war_details.`attack_order`, 9999) AS `attack_order`
+            FROM
+                `coc_league_group_war_clan_info` war_clan_relation
+                    JOIN
+                `coc_league_group_wars` wars ON war_clan_relation.`war_tag` = wars.`tag`
+                    JOIN
+                `coc_league_group_war_clan_member_info` war_member ON war_member.`war_tag` = wars.`tag`
+                    AND war_member.`clan_tag` = war_clan_relation.`clan_tag`
+                    LEFT JOIN
+                `coc_league_group_war_deails` war_details ON war_details.`war_tag` = wars.`tag`
+                    AND war_details.`attacker_tag` = war_member.`member_tag`
+                    JOIN
+                `coc_league_group_clan_members` base_member_info ON war_member.`member_tag` = base_member_info.`tag`
+            WHERE
+                war_clan_relation.`clan_tag` = '%s'
+                    AND wars.`state` = '%s'
+            ORDER BY `attack_order` DESC
+        ",
+            Config::$myClanTag,
+            Constants::WAR_STATE_IN_WAR);
+
+        return MyDB::db()->getAll($sql);
+    }
+
     /**
      * 进攻时，如果没有打，算打了零星，总进攻次数按照上场次数来算。
      * @param $season
