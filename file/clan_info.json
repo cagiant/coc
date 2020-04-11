@@ -1,0 +1,988 @@
+{
+    "tag": "#28PL2YCQ",
+    "name": "Alliance force",
+    "type": "inviteOnly",
+    "description": "文明游戏，一起成长，长期部落战，要参加的加微信群，先加好友psyyq1989带名片部落冲突。或者加qq群665148069。",
+    "location": {
+        "id": 32000056,
+        "name": "China",
+        "isCountry": true,
+        "countryCode": "CN"
+    },
+    "badgeUrls": {
+        "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+        "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+        "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+    },
+    "clanLevel": 15,
+    "clanPoints": 39714,
+    "clanVersusPoints": 33733,
+    "requiredTrophies": 2000,
+    "warFrequency": "always",
+    "warWinStreak": 3,
+    "warWins": 313,
+    "warTies": 16,
+    "warLosses": 172,
+    "isWarLogPublic": true,
+    "members": 45,
+    "memberList": [
+        {
+            "tag": "#2PY90JYJ",
+            "name": "天菜一号",
+            "role": "coLeader",
+            "expLevel": 207,
+            "league": {
+                "id": 29000022,
+                "name": "Legend League",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/R2zmhyqQ0_lKcDR5EyghXCxgyC9mm_mVMIjAbmGoZtw.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/R2zmhyqQ0_lKcDR5EyghXCxgyC9mm_mVMIjAbmGoZtw.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/R2zmhyqQ0_lKcDR5EyghXCxgyC9mm_mVMIjAbmGoZtw.png"
+                }
+            },
+            "trophies": 5282,
+            "versusTrophies": 3372,
+            "clanRank": 1,
+            "previousClanRank": 1,
+            "donations": 36,
+            "donationsReceived": 4573
+        },
+        {
+            "tag": "#8R2L89UV9",
+            "name": "陌秋",
+            "role": "coLeader",
+            "expLevel": 204,
+            "league": {
+                "id": 29000022,
+                "name": "Legend League",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/R2zmhyqQ0_lKcDR5EyghXCxgyC9mm_mVMIjAbmGoZtw.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/R2zmhyqQ0_lKcDR5EyghXCxgyC9mm_mVMIjAbmGoZtw.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/R2zmhyqQ0_lKcDR5EyghXCxgyC9mm_mVMIjAbmGoZtw.png"
+                }
+            },
+            "trophies": 5135,
+            "versusTrophies": 3297,
+            "clanRank": 2,
+            "previousClanRank": 2,
+            "donations": 3011,
+            "donationsReceived": 4351
+        },
+        {
+            "tag": "#982LLPLVQ",
+            "name": "天菜二号",
+            "role": "coLeader",
+            "expLevel": 172,
+            "league": {
+                "id": 29000022,
+                "name": "Legend League",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/R2zmhyqQ0_lKcDR5EyghXCxgyC9mm_mVMIjAbmGoZtw.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/R2zmhyqQ0_lKcDR5EyghXCxgyC9mm_mVMIjAbmGoZtw.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/R2zmhyqQ0_lKcDR5EyghXCxgyC9mm_mVMIjAbmGoZtw.png"
+                }
+            },
+            "trophies": 5110,
+            "versusTrophies": 1340,
+            "clanRank": 3,
+            "previousClanRank": 3,
+            "donations": 270,
+            "donationsReceived": 5294
+        },
+        {
+            "tag": "#8VP29RCU2",
+            "name": "Seven",
+            "role": "coLeader",
+            "expLevel": 198,
+            "league": {
+                "id": 29000021,
+                "name": "Titan League I",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png"
+                }
+            },
+            "trophies": 4770,
+            "versusTrophies": 2525,
+            "clanRank": 4,
+            "previousClanRank": 6,
+            "donations": 1778,
+            "donationsReceived": 1820
+        },
+        {
+            "tag": "#C8CUP8PR",
+            "name": "﹏茯苓°",
+            "role": "coLeader",
+            "expLevel": 224,
+            "league": {
+                "id": 29000021,
+                "name": "Titan League I",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png"
+                }
+            },
+            "trophies": 4733,
+            "versusTrophies": 3393,
+            "clanRank": 5,
+            "previousClanRank": 4,
+            "donations": 3516,
+            "donationsReceived": 1652
+        },
+        {
+            "tag": "#828RPR2UJ",
+            "name": "世界没有尽头",
+            "role": "member",
+            "expLevel": 184,
+            "league": {
+                "id": 29000021,
+                "name": "Titan League I",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png"
+                }
+            },
+            "trophies": 4720,
+            "versusTrophies": 3324,
+            "clanRank": 6,
+            "previousClanRank": 5,
+            "donations": 29,
+            "donationsReceived": 434
+        },
+        {
+            "tag": "#28QQYURJV",
+            "name": "陌者",
+            "role": "coLeader",
+            "expLevel": 171,
+            "league": {
+                "id": 29000021,
+                "name": "Titan League I",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png"
+                }
+            },
+            "trophies": 4705,
+            "versusTrophies": 2505,
+            "clanRank": 7,
+            "previousClanRank": 7,
+            "donations": 541,
+            "donationsReceived": 989
+        },
+        {
+            "tag": "#9PRCCJVLR",
+            "name": "后宫",
+            "role": "member",
+            "expLevel": 182,
+            "league": {
+                "id": 29000020,
+                "name": "Titan League II",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png"
+                }
+            },
+            "trophies": 4604,
+            "versusTrophies": 3224,
+            "clanRank": 8,
+            "previousClanRank": 8,
+            "donations": 577,
+            "donationsReceived": 490
+        },
+        {
+            "tag": "#Y29VRLULV",
+            "name": "戴尔笔记本",
+            "role": "coLeader",
+            "expLevel": 189,
+            "league": {
+                "id": 29000020,
+                "name": "Titan League II",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png"
+                }
+            },
+            "trophies": 4475,
+            "versusTrophies": 3450,
+            "clanRank": 9,
+            "previousClanRank": 9,
+            "donations": 5349,
+            "donationsReceived": 864
+        },
+        {
+            "tag": "#822QPL9CP",
+            "name": "AVA",
+            "role": "coLeader",
+            "expLevel": 192,
+            "league": {
+                "id": 29000020,
+                "name": "Titan League II",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png"
+                }
+            },
+            "trophies": 4402,
+            "versusTrophies": 2375,
+            "clanRank": 10,
+            "previousClanRank": 11,
+            "donations": 1418,
+            "donationsReceived": 1464
+        },
+        {
+            "tag": "#UGJLR88L",
+            "name": "﹏茉莉°",
+            "role": "coLeader",
+            "expLevel": 196,
+            "league": {
+                "id": 29000020,
+                "name": "Titan League II",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png"
+                }
+            },
+            "trophies": 4391,
+            "versusTrophies": 2861,
+            "clanRank": 11,
+            "previousClanRank": 10,
+            "donations": 1332,
+            "donationsReceived": 734
+        },
+        {
+            "tag": "#9PRUYYVV",
+            "name": "蛋蛋海的春",
+            "role": "admin",
+            "expLevel": 180,
+            "league": {
+                "id": 29000019,
+                "name": "Titan League III",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png"
+                }
+            },
+            "trophies": 4242,
+            "versusTrophies": 4356,
+            "clanRank": 12,
+            "previousClanRank": 13,
+            "donations": 564,
+            "donationsReceived": 1000
+        },
+        {
+            "tag": "#JPUUCJ9U",
+            "name": "PDS2010",
+            "role": "leader",
+            "expLevel": 242,
+            "league": {
+                "id": 29000019,
+                "name": "Titan League III",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png"
+                }
+            },
+            "trophies": 4241,
+            "versusTrophies": 4629,
+            "clanRank": 13,
+            "previousClanRank": 12,
+            "donations": 910,
+            "donationsReceived": 0
+        },
+        {
+            "tag": "#G2CCGUVC",
+            "name": "cap_fo rfe s",
+            "role": "admin",
+            "expLevel": 185,
+            "league": {
+                "id": 29000019,
+                "name": "Titan League III",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png"
+                }
+            },
+            "trophies": 4189,
+            "versusTrophies": 4043,
+            "clanRank": 14,
+            "previousClanRank": 14,
+            "donations": 25,
+            "donationsReceived": 0
+        },
+        {
+            "tag": "#C0Y0Q8CG",
+            "name": "打我打我打我啊",
+            "role": "admin",
+            "expLevel": 176,
+            "league": {
+                "id": 29000018,
+                "name": "Champion League I",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png"
+                }
+            },
+            "trophies": 3996,
+            "versusTrophies": 4085,
+            "clanRank": 15,
+            "previousClanRank": 15,
+            "donations": 2381,
+            "donationsReceived": 1561
+        },
+        {
+            "tag": "#Y8J0GCLCP",
+            "name": "联想笔记本",
+            "role": "coLeader",
+            "expLevel": 159,
+            "league": {
+                "id": 29000018,
+                "name": "Champion League I",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png"
+                }
+            },
+            "trophies": 3990,
+            "versusTrophies": 2854,
+            "clanRank": 16,
+            "previousClanRank": 17,
+            "donations": 918,
+            "donationsReceived": 1736
+        },
+        {
+            "tag": "#2LUJ00L08",
+            "name": "connan",
+            "role": "admin",
+            "expLevel": 181,
+            "league": {
+                "id": 29000018,
+                "name": "Champion League I",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png"
+                }
+            },
+            "trophies": 3990,
+            "versusTrophies": 4416,
+            "clanRank": 17,
+            "previousClanRank": 16,
+            "donations": 0,
+            "donationsReceived": 445
+        },
+        {
+            "tag": "#89YVURQJU",
+            "name": "天菜三号",
+            "role": "admin",
+            "expLevel": 172,
+            "league": {
+                "id": 29000000,
+                "name": "Unranked",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+                }
+            },
+            "trophies": 3919,
+            "versusTrophies": 1611,
+            "clanRank": 18,
+            "previousClanRank": 19,
+            "donations": 7127,
+            "donationsReceived": 503
+        },
+        {
+            "tag": "#808L2L29Y",
+            "name": "冰河",
+            "role": "member",
+            "expLevel": 174,
+            "league": {
+                "id": 29000018,
+                "name": "Champion League I",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png"
+                }
+            },
+            "trophies": 3831,
+            "versusTrophies": 2605,
+            "clanRank": 19,
+            "previousClanRank": 18,
+            "donations": 4,
+            "donationsReceived": 334
+        },
+        {
+            "tag": "#80GPL89RU",
+            "name": "天才少年吕彦群",
+            "role": "admin",
+            "expLevel": 180,
+            "league": {
+                "id": 29000017,
+                "name": "Champion League II",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/kLWSSyq7vJiRiCantiKCoFuSJOxief6R1ky6AyfB8q0.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/kLWSSyq7vJiRiCantiKCoFuSJOxief6R1ky6AyfB8q0.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/kLWSSyq7vJiRiCantiKCoFuSJOxief6R1ky6AyfB8q0.png"
+                }
+            },
+            "trophies": 3615,
+            "versusTrophies": 3782,
+            "clanRank": 20,
+            "previousClanRank": 20,
+            "donations": 909,
+            "donationsReceived": 170
+        },
+        {
+            "tag": "#92LRLJJR",
+            "name": "永远的波哥",
+            "role": "member",
+            "expLevel": 161,
+            "league": {
+                "id": 29000016,
+                "name": "Champion League III",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/JmmTbspV86xBigM7OP5_SjsEDPuE7oXjZC9aOy8xO3s.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/JmmTbspV86xBigM7OP5_SjsEDPuE7oXjZC9aOy8xO3s.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/JmmTbspV86xBigM7OP5_SjsEDPuE7oXjZC9aOy8xO3s.png"
+                }
+            },
+            "trophies": 3229,
+            "versusTrophies": 2071,
+            "clanRank": 21,
+            "previousClanRank": 21,
+            "donations": 1971,
+            "donationsReceived": 850
+        },
+        {
+            "tag": "#9URPQV89Y",
+            "name": "K先生",
+            "role": "coLeader",
+            "expLevel": 169,
+            "league": {
+                "id": 29000016,
+                "name": "Champion League III",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/JmmTbspV86xBigM7OP5_SjsEDPuE7oXjZC9aOy8xO3s.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/JmmTbspV86xBigM7OP5_SjsEDPuE7oXjZC9aOy8xO3s.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/JmmTbspV86xBigM7OP5_SjsEDPuE7oXjZC9aOy8xO3s.png"
+                }
+            },
+            "trophies": 3158,
+            "versusTrophies": 3363,
+            "clanRank": 22,
+            "previousClanRank": 22,
+            "donations": 0,
+            "donationsReceived": 2209
+        },
+        {
+            "tag": "#V9Y9U0JP",
+            "name": "无名",
+            "role": "coLeader",
+            "expLevel": 174,
+            "league": {
+                "id": 29000000,
+                "name": "Unranked",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+                }
+            },
+            "trophies": 3046,
+            "versusTrophies": 3272,
+            "clanRank": 23,
+            "previousClanRank": 24,
+            "donations": 0,
+            "donationsReceived": 0
+        },
+        {
+            "tag": "#JYVCCLL2",
+            "name": "宁波科学探索中心",
+            "role": "coLeader",
+            "expLevel": 177,
+            "league": {
+                "id": 29000015,
+                "name": "Master League I",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/olUfFb1wscIH8hqECAdWbdB6jPm9R8zzEyHIzyBgRXc.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/olUfFb1wscIH8hqECAdWbdB6jPm9R8zzEyHIzyBgRXc.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/olUfFb1wscIH8hqECAdWbdB6jPm9R8zzEyHIzyBgRXc.png"
+                }
+            },
+            "trophies": 2925,
+            "versusTrophies": 2444,
+            "clanRank": 24,
+            "previousClanRank": 23,
+            "donations": 484,
+            "donationsReceived": 1060
+        },
+        {
+            "tag": "#CJ9LQ29V",
+            "name": "fhg",
+            "role": "coLeader",
+            "expLevel": 199,
+            "league": {
+                "id": 29000000,
+                "name": "Unranked",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+                }
+            },
+            "trophies": 2913,
+            "versusTrophies": 4104,
+            "clanRank": 25,
+            "previousClanRank": 25,
+            "donations": 0,
+            "donationsReceived": 0
+        },
+        {
+            "tag": "#YJJ2G0992",
+            "name": "北城",
+            "role": "coLeader",
+            "expLevel": 142,
+            "league": {
+                "id": 29000000,
+                "name": "Unranked",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+                }
+            },
+            "trophies": 2883,
+            "versusTrophies": 3170,
+            "clanRank": 26,
+            "previousClanRank": 27,
+            "donations": 0,
+            "donationsReceived": 0
+        },
+        {
+            "tag": "#8JLGJYRU2",
+            "name": "陌风",
+            "role": "coLeader",
+            "expLevel": 177,
+            "league": {
+                "id": 29000000,
+                "name": "Unranked",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+                }
+            },
+            "trophies": 2807,
+            "versusTrophies": 2402,
+            "clanRank": 27,
+            "previousClanRank": 29,
+            "donations": 0,
+            "donationsReceived": 0
+        },
+        {
+            "tag": "#8PGCC829",
+            "name": "大夫",
+            "role": "coLeader",
+            "expLevel": 198,
+            "league": {
+                "id": 29000000,
+                "name": "Unranked",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+                }
+            },
+            "trophies": 2667,
+            "versusTrophies": 4000,
+            "clanRank": 28,
+            "previousClanRank": 31,
+            "donations": 0,
+            "donationsReceived": 0
+        },
+        {
+            "tag": "#L9LUYVV8P",
+            "name": "你好烦啊",
+            "role": "member",
+            "expLevel": 105,
+            "league": {
+                "id": 29000013,
+                "name": "Master League III",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/pSXfKvBKSgtvfOY3xKkgFaRQi0WcE28s3X35ywbIluY.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/pSXfKvBKSgtvfOY3xKkgFaRQi0WcE28s3X35ywbIluY.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/pSXfKvBKSgtvfOY3xKkgFaRQi0WcE28s3X35ywbIluY.png"
+                }
+            },
+            "trophies": 2561,
+            "versusTrophies": 2769,
+            "clanRank": 29,
+            "previousClanRank": 32,
+            "donations": 4,
+            "donationsReceived": 0
+        },
+        {
+            "tag": "#PLVCJGR0P",
+            "name": "k f k f",
+            "role": "coLeader",
+            "expLevel": 133,
+            "league": {
+                "id": 29000013,
+                "name": "Master League III",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/pSXfKvBKSgtvfOY3xKkgFaRQi0WcE28s3X35ywbIluY.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/pSXfKvBKSgtvfOY3xKkgFaRQi0WcE28s3X35ywbIluY.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/pSXfKvBKSgtvfOY3xKkgFaRQi0WcE28s3X35ywbIluY.png"
+                }
+            },
+            "trophies": 2547,
+            "versusTrophies": 182,
+            "clanRank": 30,
+            "previousClanRank": 26,
+            "donations": 407,
+            "donationsReceived": 354
+        },
+        {
+            "tag": "#9JPCUQLY0",
+            "name": "魁拔",
+            "role": "member",
+            "expLevel": 197,
+            "league": {
+                "id": 29000011,
+                "name": "Crystal League II",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/jhP36EhAA9n1ADafdQtCP-ztEAQjoRpY7cT8sU7SW8A.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/jhP36EhAA9n1ADafdQtCP-ztEAQjoRpY7cT8sU7SW8A.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/jhP36EhAA9n1ADafdQtCP-ztEAQjoRpY7cT8sU7SW8A.png"
+                }
+            },
+            "trophies": 2363,
+            "versusTrophies": 2883,
+            "clanRank": 31,
+            "previousClanRank": 36,
+            "donations": 0,
+            "donationsReceived": 0
+        },
+        {
+            "tag": "#20PC09RCJ",
+            "name": "微如薄烟",
+            "role": "member",
+            "expLevel": 148,
+            "league": {
+                "id": 29000011,
+                "name": "Crystal League II",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/jhP36EhAA9n1ADafdQtCP-ztEAQjoRpY7cT8sU7SW8A.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/jhP36EhAA9n1ADafdQtCP-ztEAQjoRpY7cT8sU7SW8A.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/jhP36EhAA9n1ADafdQtCP-ztEAQjoRpY7cT8sU7SW8A.png"
+                }
+            },
+            "trophies": 2349,
+            "versusTrophies": 2199,
+            "clanRank": 32,
+            "previousClanRank": 33,
+            "donations": 0,
+            "donationsReceived": 0
+        },
+        {
+            "tag": "#2L8Y2829P",
+            "name": "柯保",
+            "role": "coLeader",
+            "expLevel": 174,
+            "league": {
+                "id": 29000000,
+                "name": "Unranked",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+                }
+            },
+            "trophies": 2347,
+            "versusTrophies": 3646,
+            "clanRank": 33,
+            "previousClanRank": 34,
+            "donations": 0,
+            "donationsReceived": 0
+        },
+        {
+            "tag": "#P88VLLGLJ",
+            "name": "回廊宜步月寻詩不觉鹤相随",
+            "role": "member",
+            "expLevel": 124,
+            "league": {
+                "id": 29000000,
+                "name": "Unranked",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+                }
+            },
+            "trophies": 2323,
+            "versusTrophies": 1234,
+            "clanRank": 34,
+            "previousClanRank": 35,
+            "donations": 0,
+            "donationsReceived": 0
+        },
+        {
+            "tag": "#YRLCJU988",
+            "name": "pds3010",
+            "role": "admin",
+            "expLevel": 129,
+            "league": {
+                "id": 29000000,
+                "name": "Unranked",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+                }
+            },
+            "trophies": 2279,
+            "versusTrophies": 2806,
+            "clanRank": 35,
+            "previousClanRank": 37,
+            "donations": 0,
+            "donationsReceived": 0
+        },
+        {
+            "tag": "#8LVUGPLQP",
+            "name": "大秦王朝",
+            "role": "member",
+            "expLevel": 192,
+            "league": {
+                "id": 29000011,
+                "name": "Crystal League II",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/jhP36EhAA9n1ADafdQtCP-ztEAQjoRpY7cT8sU7SW8A.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/jhP36EhAA9n1ADafdQtCP-ztEAQjoRpY7cT8sU7SW8A.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/jhP36EhAA9n1ADafdQtCP-ztEAQjoRpY7cT8sU7SW8A.png"
+                }
+            },
+            "trophies": 2137,
+            "versusTrophies": 3457,
+            "clanRank": 36,
+            "previousClanRank": 28,
+            "donations": 169,
+            "donationsReceived": 434
+        },
+        {
+            "tag": "#898RCJGPY",
+            "name": "困兽睡不醒",
+            "role": "coLeader",
+            "expLevel": 189,
+            "league": {
+                "id": 29000010,
+                "name": "Crystal League III",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/Hyqco7bHh0Q81xB8mSF_ZhjKnKcTmJ9QEq9QGlsxiKE.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/Hyqco7bHh0Q81xB8mSF_ZhjKnKcTmJ9QEq9QGlsxiKE.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/Hyqco7bHh0Q81xB8mSF_ZhjKnKcTmJ9QEq9QGlsxiKE.png"
+                }
+            },
+            "trophies": 2085,
+            "versusTrophies": 3164,
+            "clanRank": 37,
+            "previousClanRank": 30,
+            "donations": 330,
+            "donationsReceived": 669
+        },
+        {
+            "tag": "#L9RYL9VU0",
+            "name": "我的村庄叫做......",
+            "role": "admin",
+            "expLevel": 100,
+            "league": {
+                "id": 29000000,
+                "name": "Unranked",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+                }
+            },
+            "trophies": 2009,
+            "versusTrophies": 2828,
+            "clanRank": 38,
+            "previousClanRank": 38,
+            "donations": 0,
+            "donationsReceived": 0
+        },
+        {
+            "tag": "#YUY982GQL",
+            "name": "蓝云的老父亲",
+            "role": "member",
+            "expLevel": 69,
+            "league": {
+                "id": 29000008,
+                "name": "Gold League II",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/Y6CveuHmPM_oiOic2Yet0rYL9AFRYW0WA0u2e44-YbM.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/Y6CveuHmPM_oiOic2Yet0rYL9AFRYW0WA0u2e44-YbM.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/Y6CveuHmPM_oiOic2Yet0rYL9AFRYW0WA0u2e44-YbM.png"
+                }
+            },
+            "trophies": 1622,
+            "versusTrophies": 2000,
+            "clanRank": 39,
+            "previousClanRank": 39,
+            "donations": 42,
+            "donationsReceived": 241
+        },
+        {
+            "tag": "#2LURYRPC9",
+            "name": "陌V",
+            "role": "member",
+            "expLevel": 66,
+            "league": {
+                "id": 29000006,
+                "name": "Silver League I",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/nvrBLvCK10elRHmD1g9w5UU1flDRMhYAojMB2UbYfPs.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/nvrBLvCK10elRHmD1g9w5UU1flDRMhYAojMB2UbYfPs.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/nvrBLvCK10elRHmD1g9w5UU1flDRMhYAojMB2UbYfPs.png"
+                }
+            },
+            "trophies": 1234,
+            "versusTrophies": 108,
+            "clanRank": 40,
+            "previousClanRank": 40,
+            "donations": 0,
+            "donationsReceived": 0
+        },
+        {
+            "tag": "#822C2JCYR",
+            "name": "Seven",
+            "role": "coLeader",
+            "expLevel": 91,
+            "league": {
+                "id": 29000000,
+                "name": "Unranked",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+                }
+            },
+            "trophies": 1225,
+            "versusTrophies": 198,
+            "clanRank": 41,
+            "previousClanRank": 41,
+            "donations": 0,
+            "donationsReceived": 0
+        },
+        {
+            "tag": "#Y9J8JRJV9",
+            "name": "蓝云",
+            "role": "member",
+            "expLevel": 96,
+            "league": {
+                "id": 29000006,
+                "name": "Silver League I",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/nvrBLvCK10elRHmD1g9w5UU1flDRMhYAojMB2UbYfPs.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/nvrBLvCK10elRHmD1g9w5UU1flDRMhYAojMB2UbYfPs.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/nvrBLvCK10elRHmD1g9w5UU1flDRMhYAojMB2UbYfPs.png"
+                }
+            },
+            "trophies": 1224,
+            "versusTrophies": 2006,
+            "clanRank": 42,
+            "previousClanRank": 42,
+            "donations": 0,
+            "donationsReceived": 245
+        },
+        {
+            "tag": "#9UJ22CR0L",
+            "name": "烦夫卒子",
+            "role": "member",
+            "expLevel": 87,
+            "league": {
+                "id": 29000006,
+                "name": "Silver League I",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/nvrBLvCK10elRHmD1g9w5UU1flDRMhYAojMB2UbYfPs.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/nvrBLvCK10elRHmD1g9w5UU1flDRMhYAojMB2UbYfPs.png",
+                    "medium": "https://api-assets.clashofclans.com/leagues/288/nvrBLvCK10elRHmD1g9w5UU1flDRMhYAojMB2UbYfPs.png"
+                }
+            },
+            "trophies": 1194,
+            "versusTrophies": 2085,
+            "clanRank": 43,
+            "previousClanRank": 0,
+            "donations": 0,
+            "donationsReceived": 66
+        },
+        {
+            "tag": "#YCYYJ0Q0U",
+            "name": "Toby",
+            "role": "member",
+            "expLevel": 32,
+            "league": {
+                "id": 29000000,
+                "name": "Unranked",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+                }
+            },
+            "trophies": 714,
+            "versusTrophies": 79,
+            "clanRank": 44,
+            "previousClanRank": 43,
+            "donations": 0,
+            "donationsReceived": 0
+        },
+        {
+            "tag": "#Y8920PC99",
+            "name": "Jade",
+            "role": "member",
+            "expLevel": 36,
+            "league": {
+                "id": 29000000,
+                "name": "Unranked",
+                "iconUrls": {
+                    "small": "https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                    "tiny": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+                }
+            },
+            "trophies": 404,
+            "versusTrophies": 1091,
+            "clanRank": 45,
+            "previousClanRank": 44,
+            "donations": 0,
+            "donationsReceived": 0
+        }
+    ],
+    "labels": [
+        {
+            "id": 56000000,
+            "name": "Clan Wars",
+            "iconUrls": {
+                "small": "https://api-assets.clashofclans.com/labels/64/lXaIuoTlfoNOY5fKcQGeT57apz1KFWkN9-raxqIlMbE.png",
+                "medium": "https://api-assets.clashofclans.com/labels/128/lXaIuoTlfoNOY5fKcQGeT57apz1KFWkN9-raxqIlMbE.png"
+            }
+        },
+        {
+            "id": 56000001,
+            "name": "Clan War League",
+            "iconUrls": {
+                "small": "https://api-assets.clashofclans.com/labels/64/5w60_3bdtYUe9SM6rkxBRyV_8VvWw_jTlDS5ieU3IsI.png",
+                "medium": "https://api-assets.clashofclans.com/labels/128/5w60_3bdtYUe9SM6rkxBRyV_8VvWw_jTlDS5ieU3IsI.png"
+            }
+        },
+        {
+            "id": 56000014,
+            "name": "Competitive",
+            "iconUrls": {
+                "small": "https://api-assets.clashofclans.com/labels/64/DhBE-1SSnrZQtsfjVHyNW-BTBWMc8Zoo34MNRCNiRsA.png",
+                "medium": "https://api-assets.clashofclans.com/labels/128/DhBE-1SSnrZQtsfjVHyNW-BTBWMc8Zoo34MNRCNiRsA.png"
+            }
+        }
+    ]
+}

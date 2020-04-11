@@ -42,7 +42,7 @@ class SyncLeagueGroupWarInfo extends AbstractSyncInfo
 
         foreach ($warTags as $key => $warTag) {
             Logger::log(sprintf("开始获取战争信息，标签 %s", $warTag));
-            $url = sprintf(Config::$apiGetWarInfoUrl , urlencode($warTag));
+            $url = sprintf(Config::$apiGetLeagueWarInfoUrl , urlencode($warTag));
             $data = $this->getData($url);
             Logger::log(sprintf("获取战争信息结束，标签 %s", $warTag));
 
@@ -70,7 +70,7 @@ class SyncLeagueGroupWarInfo extends AbstractSyncInfo
         $tag = MyDB::db()->getOne($sql);
 
         if (!empty($tag)) {
-            $url = sprintf(Config::$apiGetWarInfoUrl , urlencode($tag));
+            $url = sprintf(Config::$apiGetLeagueWarInfoUrl , urlencode($tag));
             $data = $this->getData($url);
             if (!empty($data['state'])) {
                 $this->saveWarData($data, $tag);
@@ -81,7 +81,6 @@ class SyncLeagueGroupWarInfo extends AbstractSyncInfo
         } else {
             echo 'no valid data found.';
         }
-        exit();
     }
 
     /**

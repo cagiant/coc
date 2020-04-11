@@ -1,0 +1,1847 @@
+{
+    "items": [
+        {
+            "result": "tie",
+            "endTime": "20200410T094420.000Z",
+            "teamSize": 15,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 98,
+                "stars": 201,
+                "destructionPercentage": 496.2,
+                "expEarned": 0
+            },
+            "opponent": {
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png"
+                },
+                "clanLevel": 0,
+                "stars": 229,
+                "destructionPercentage": 0
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20200328T102924.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 11,
+                "destructionPercentage": 89.8,
+                "expEarned": 136
+            },
+            "opponent": {
+                "tag": "#VYL0QRQP",
+                "name": "!!ོ「紅顏」ི戰鬥小分隊༄。",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/ScidH2yHrb3fydS2LZYbOOZ6CaKcEFtqwMDwpcJbA5E.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/ScidH2yHrb3fydS2LZYbOOZ6CaKcEFtqwMDwpcJbA5E.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/ScidH2yHrb3fydS2LZYbOOZ6CaKcEFtqwMDwpcJbA5E.png"
+                },
+                "clanLevel": 12,
+                "stars": 11,
+                "destructionPercentage": 87.2
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20200322T124457.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 12,
+                "destructionPercentage": 93.4,
+                "expEarned": 135
+            },
+            "opponent": {
+                "tag": "#UYJQL0RC",
+                "name": "수다쟁이들",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/eCs9GGvnyOX3NyLMoXIVpbspQf56TBvbd-v8fLTf4N8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/eCs9GGvnyOX3NyLMoXIVpbspQf56TBvbd-v8fLTf4N8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/eCs9GGvnyOX3NyLMoXIVpbspQf56TBvbd-v8fLTf4N8.png"
+                },
+                "clanLevel": 15,
+                "stars": 10,
+                "destructionPercentage": 78.2
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20200320T102907.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 12,
+                "destructionPercentage": 85,
+                "expEarned": 135
+            },
+            "opponent": {
+                "tag": "#G282G0GU",
+                "name": "まゆとドラゴンの休憩所",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/KrQ_9CWbdq_SztH-DFRlQFPecC6_yIO_wbSe_OlTxlc.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/KrQ_9CWbdq_SztH-DFRlQFPecC6_yIO_wbSe_OlTxlc.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/KrQ_9CWbdq_SztH-DFRlQFPecC6_yIO_wbSe_OlTxlc.png"
+                },
+                "clanLevel": 15,
+                "stars": 11,
+                "destructionPercentage": 92.8
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20200318T105230.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 8,
+                "stars": 13,
+                "destructionPercentage": 92.2,
+                "expEarned": 85
+            },
+            "opponent": {
+                "tag": "#R0Q8PUQC",
+                "name": "GARUDA PUTRI",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/agioxsWkvZF5XTui0gQGc-U1w7JihvCCsOmlONCJbxc.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/agioxsWkvZF5XTui0gQGc-U1w7JihvCCsOmlONCJbxc.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/agioxsWkvZF5XTui0gQGc-U1w7JihvCCsOmlONCJbxc.png"
+                },
+                "clanLevel": 14,
+                "stars": 13,
+                "destructionPercentage": 94.2
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20200316T114626.000Z",
+            "teamSize": 10,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 15,
+                "stars": 23,
+                "destructionPercentage": 86.9,
+                "expEarned": 134
+            },
+            "opponent": {
+                "tag": "#CQQYCRVG",
+                "name": "輕舟已過萬重山",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/utVwodU8R9RqdZ9TDoCT6ogtBlovkM_Al9zCu2Ww7DI.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/utVwodU8R9RqdZ9TDoCT6ogtBlovkM_Al9zCu2Ww7DI.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/utVwodU8R9RqdZ9TDoCT6ogtBlovkM_Al9zCu2Ww7DI.png"
+                },
+                "clanLevel": 15,
+                "stars": 27,
+                "destructionPercentage": 92.6
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20200314T090454.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 14,
+                "destructionPercentage": 92.6,
+                "expEarned": 134
+            },
+            "opponent": {
+                "tag": "#8PUQ99UJ",
+                "name": "The Finest Hour",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/gFXxnsS2hmjOwQ-9EaBmhBuKj6emYpD_Ft5yIODszFo.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/gFXxnsS2hmjOwQ-9EaBmhBuKj6emYpD_Ft5yIODszFo.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/gFXxnsS2hmjOwQ-9EaBmhBuKj6emYpD_Ft5yIODszFo.png"
+                },
+                "clanLevel": 18,
+                "stars": 11,
+                "destructionPercentage": 84.4
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20200312T063257.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 13,
+                "destructionPercentage": 97,
+                "expEarned": 135
+            },
+            "opponent": {
+                "tag": "#GCYL8JCL",
+                "name": "Ravensburg Clan",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/pZa70pi_cMSClgxLOL71vL5rV6NgfLCRYNsz9n9vQj4.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/pZa70pi_cMSClgxLOL71vL5rV6NgfLCRYNsz9n9vQj4.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/pZa70pi_cMSClgxLOL71vL5rV6NgfLCRYNsz9n9vQj4.png"
+                },
+                "clanLevel": 15,
+                "stars": 13,
+                "destructionPercentage": 92.2
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20200309T235525.000Z",
+            "teamSize": 15,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 105,
+                "stars": 281,
+                "destructionPercentage": 571.86664,
+                "expEarned": 0
+            },
+            "opponent": {
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png"
+                },
+                "clanLevel": 0,
+                "stars": 201,
+                "destructionPercentage": 0
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20200301T121505.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 10,
+                "destructionPercentage": 72.6,
+                "expEarned": 87
+            },
+            "opponent": {
+                "tag": "#292QQLUQG",
+                "name": "☆DARK ART☆",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/-sy0i_13iVXohXBESEtJOIg9u5rNFFdn6g2-E0Vkp_4.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/-sy0i_13iVXohXBESEtJOIg9u5rNFFdn6g2-E0Vkp_4.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/-sy0i_13iVXohXBESEtJOIg9u5rNFFdn6g2-E0Vkp_4.png"
+                },
+                "clanLevel": 3,
+                "stars": 13,
+                "destructionPercentage": 96.2
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20200228T122107.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 13,
+                "destructionPercentage": 91,
+                "expEarned": 135
+            },
+            "opponent": {
+                "tag": "#28LGR0QVJ",
+                "name": "汇贤雅叙",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/sBw5z2iT27YhUui5WOAyhLifDEBn3hkkzbBriWosCmA.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/sBw5z2iT27YhUui5WOAyhLifDEBn3hkkzbBriWosCmA.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/sBw5z2iT27YhUui5WOAyhLifDEBn3hkkzbBriWosCmA.png"
+                },
+                "clanLevel": 12,
+                "stars": 11,
+                "destructionPercentage": 87.4
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20200226T090013.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 9,
+                "stars": 11,
+                "destructionPercentage": 87.8,
+                "expEarned": 85
+            },
+            "opponent": {
+                "tag": "#YYRYCRYP",
+                "name": "モチベーションギルド",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/oIowNrJ6BJ9-3biGk_vQpf1xFJIIJohmq5TToic7TiE.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/oIowNrJ6BJ9-3biGk_vQpf1xFJIIJohmq5TToic7TiE.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/oIowNrJ6BJ9-3biGk_vQpf1xFJIIJohmq5TToic7TiE.png"
+                },
+                "clanLevel": 15,
+                "stars": 14,
+                "destructionPercentage": 96.2
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20200224T093623.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 12,
+                "destructionPercentage": 91,
+                "expEarned": 135
+            },
+            "opponent": {
+                "tag": "#2PLVRY9Y",
+                "name": "蜀燕国",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/QMaA9VB7hicZPVcudD3c3FhkkIeFJflHG_CTn8GgV-Q.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/QMaA9VB7hicZPVcudD3c3FhkkIeFJflHG_CTn8GgV-Q.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/QMaA9VB7hicZPVcudD3c3FhkkIeFJflHG_CTn8GgV-Q.png"
+                },
+                "clanLevel": 19,
+                "stars": 10,
+                "destructionPercentage": 86.8
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20200222T094910.000Z",
+            "teamSize": 10,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 20,
+                "stars": 24,
+                "destructionPercentage": 92.3,
+                "expEarned": 135
+            },
+            "opponent": {
+                "tag": "#8JR20CQC",
+                "name": "背嵬",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/1uylWflohNgP8R0gQJu0dD6r-kF86SyuhDmPvco6C-c.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/1uylWflohNgP8R0gQJu0dD6r-kF86SyuhDmPvco6C-c.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/1uylWflohNgP8R0gQJu0dD6r-kF86SyuhDmPvco6C-c.png"
+                },
+                "clanLevel": 19,
+                "stars": 25,
+                "destructionPercentage": 85.9
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20200220T100554.000Z",
+            "teamSize": 10,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 18,
+                "stars": 24,
+                "destructionPercentage": 92.4,
+                "expEarned": 185
+            },
+            "opponent": {
+                "tag": "#9PQQG09C",
+                "name": "VNOpenClan",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/CEXf-0r0031JbjiSPvxPoku18WX8BwXKsHuPqB-fd-E.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/CEXf-0r0031JbjiSPvxPoku18WX8BwXKsHuPqB-fd-E.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/CEXf-0r0031JbjiSPvxPoku18WX8BwXKsHuPqB-fd-E.png"
+                },
+                "clanLevel": 22,
+                "stars": 21,
+                "destructionPercentage": 73.1
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20200218T092719.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 13,
+                "destructionPercentage": 97.4,
+                "expEarned": 85
+            },
+            "opponent": {
+                "tag": "#2P09LJCJP",
+                "name": "사랑♡",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/eft1DDGdhIDdsMhAyjqdwDkeY7RGV5wSrGKKfQ4GTUU.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/eft1DDGdhIDdsMhAyjqdwDkeY7RGV5wSrGKKfQ4GTUU.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/eft1DDGdhIDdsMhAyjqdwDkeY7RGV5wSrGKKfQ4GTUU.png"
+                },
+                "clanLevel": 6,
+                "stars": 14,
+                "destructionPercentage": 97.8
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20200216T101353.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 9,
+                "stars": 12,
+                "destructionPercentage": 81,
+                "expEarned": 85
+            },
+            "opponent": {
+                "tag": "#2UPL9CC",
+                "name": "Gaijins Br",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/oaygM0AU0VupNHITpoIcnWW9a6YMG-houO7GUmuYGlg.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/oaygM0AU0VupNHITpoIcnWW9a6YMG-houO7GUmuYGlg.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/oaygM0AU0VupNHITpoIcnWW9a6YMG-houO7GUmuYGlg.png"
+                },
+                "clanLevel": 17,
+                "stars": 14,
+                "destructionPercentage": 99
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20200214T102913.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 12,
+                "destructionPercentage": 94.6,
+                "expEarned": 135
+            },
+            "opponent": {
+                "tag": "#9JJYQ8QR",
+                "name": "台灣",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/SoAe_AQ7GkVnHZJZt9B63P260s9-ih-_Y68Uz7FBNtM.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/SoAe_AQ7GkVnHZJZt9B63P260s9-ih-_Y68Uz7FBNtM.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/SoAe_AQ7GkVnHZJZt9B63P260s9-ih-_Y68Uz7FBNtM.png"
+                },
+                "clanLevel": 18,
+                "stars": 12,
+                "destructionPercentage": 90.8
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20200212T105736.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 12,
+                "destructionPercentage": 82.4,
+                "expEarned": 85
+            },
+            "opponent": {
+                "tag": "#89VLCCQQ",
+                "name": "英丶雄",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/fLP54ub4oCgHcQwjmwGHfHkXlINyhr6f-JxEi4EmgUQ.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/fLP54ub4oCgHcQwjmwGHfHkXlINyhr6f-JxEi4EmgUQ.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/fLP54ub4oCgHcQwjmwGHfHkXlINyhr6f-JxEi4EmgUQ.png"
+                },
+                "clanLevel": 20,
+                "stars": 12,
+                "destructionPercentage": 98
+            }
+        },
+        {
+            "result": null,
+            "endTime": "20200210T104338.000Z",
+            "teamSize": 15,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 105,
+                "stars": 277,
+                "destructionPercentage": 597.86664,
+                "expEarned": 0
+            },
+            "opponent": {
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png"
+                },
+                "clanLevel": 0,
+                "stars": 198,
+                "destructionPercentage": 0
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20200131T142733.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 11,
+                "destructionPercentage": 80.6,
+                "expEarned": 135
+            },
+            "opponent": {
+                "tag": "#20QR0LGP",
+                "name": "ジャガイモパラダイス❤️",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/6N0JW3BuyMryrLlttlOQOCVOTIHJWBos2536ZK45tng.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/6N0JW3BuyMryrLlttlOQOCVOTIHJWBos2536ZK45tng.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/6N0JW3BuyMryrLlttlOQOCVOTIHJWBos2536ZK45tng.png"
+                },
+                "clanLevel": 20,
+                "stars": 10,
+                "destructionPercentage": 86
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20200125T031054.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 8,
+                "stars": 10,
+                "destructionPercentage": 77.6,
+                "expEarned": 85
+            },
+            "opponent": {
+                "tag": "#22JV2UV20",
+                "name": "kk비철",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/yb7bmoV83lgCH_0pTsjDkWh8WACXMvyya6THaqHD-fQ.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/yb7bmoV83lgCH_0pTsjDkWh8WACXMvyya6THaqHD-fQ.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/yb7bmoV83lgCH_0pTsjDkWh8WACXMvyya6THaqHD-fQ.png"
+                },
+                "clanLevel": 5,
+                "stars": 13,
+                "destructionPercentage": 91.4
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20200123T031047.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 11,
+                "destructionPercentage": 82.4,
+                "expEarned": 135
+            },
+            "opponent": {
+                "tag": "#PGCJ2RP",
+                "name": "canada",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/qw0kHwhUKyxGvOQJlvvfBKYNa8xvlRhD4pKt6NO37h0.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/qw0kHwhUKyxGvOQJlvvfBKYNa8xvlRhD4pKt6NO37h0.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/qw0kHwhUKyxGvOQJlvvfBKYNa8xvlRhD4pKt6NO37h0.png"
+                },
+                "clanLevel": 16,
+                "stars": 10,
+                "destructionPercentage": 74.4
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20200115T091912.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 11,
+                "destructionPercentage": 88.6,
+                "expEarned": 85
+            },
+            "opponent": {
+                "tag": "#YG9JQ92U",
+                "name": "مافيا المغرب",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/LsYxLbEIAsTgcqbniHOlbs3pClsbVdgm-sxX2V6kskI.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/LsYxLbEIAsTgcqbniHOlbs3pClsbVdgm-sxX2V6kskI.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/LsYxLbEIAsTgcqbniHOlbs3pClsbVdgm-sxX2V6kskI.png"
+                },
+                "clanLevel": 16,
+                "stars": 13,
+                "destructionPercentage": 99
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20200113T081356.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 11,
+                "destructionPercentage": 88,
+                "expEarned": 135
+            },
+            "opponent": {
+                "tag": "#LGQJGUQY",
+                "name": "MIEN DAT HUA",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/-nr08eD9aaQWvEja2s9AV4IkhzzNZ5fVwomF3B4b6oE.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/-nr08eD9aaQWvEja2s9AV4IkhzzNZ5fVwomF3B4b6oE.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/-nr08eD9aaQWvEja2s9AV4IkhzzNZ5fVwomF3B4b6oE.png"
+                },
+                "clanLevel": 16,
+                "stars": 11,
+                "destructionPercentage": 83.4
+            }
+        },
+        {
+            "result": null,
+            "endTime": "20200110T143816.000Z",
+            "teamSize": 15,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 105,
+                "stars": 284,
+                "destructionPercentage": 591,
+                "expEarned": 0
+            },
+            "opponent": {
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png"
+                },
+                "clanLevel": 0,
+                "stars": 197,
+                "destructionPercentage": 0
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20191224T110233.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 11,
+                "destructionPercentage": 89,
+                "expEarned": 85
+            },
+            "opponent": {
+                "tag": "#9GRQQU9L",
+                "name": "天龙部落",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/Gd32HORi6b5EOPSVFqtbw5xbs-v-YkDr0ogtaXlykCE.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/Gd32HORi6b5EOPSVFqtbw5xbs-v-YkDr0ogtaXlykCE.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/Gd32HORi6b5EOPSVFqtbw5xbs-v-YkDr0ogtaXlykCE.png"
+                },
+                "clanLevel": 14,
+                "stars": 12,
+                "destructionPercentage": 83
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20191222T094505.000Z",
+            "teamSize": 10,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 20,
+                "stars": 26,
+                "destructionPercentage": 92.7,
+                "expEarned": 184
+            },
+            "opponent": {
+                "tag": "#2Y0VJLUV",
+                "name": "中山金鱼俱乐部",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/Kr5qoWnQR6g3ibf4yHW2LmvkUvf_7DgFZ--uZOkwU2M.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/Kr5qoWnQR6g3ibf4yHW2LmvkUvf_7DgFZ--uZOkwU2M.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/Kr5qoWnQR6g3ibf4yHW2LmvkUvf_7DgFZ--uZOkwU2M.png"
+                },
+                "clanLevel": 16,
+                "stars": 23,
+                "destructionPercentage": 84.1
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20191220T094045.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 11,
+                "destructionPercentage": 91.4,
+                "expEarned": 135
+            },
+            "opponent": {
+                "tag": "#YYRYCRYP",
+                "name": "モチベーションギルド",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/ykdo9Tw8D9JhBxqCg1pYoEEaZOLc9TNhy4PKDLhM75Q.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/ykdo9Tw8D9JhBxqCg1pYoEEaZOLc9TNhy4PKDLhM75Q.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/ykdo9Tw8D9JhBxqCg1pYoEEaZOLc9TNhy4PKDLhM75Q.png"
+                },
+                "clanLevel": 14,
+                "stars": 11,
+                "destructionPercentage": 86.6
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20191218T095311.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 11,
+                "destructionPercentage": 92.6,
+                "expEarned": 134
+            },
+            "opponent": {
+                "tag": "#28R8YJVJ0",
+                "name": "住手，别打啦，我是村长",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/GgVu5CHf0vL7NNvjqQbqCQpxoPKn6HjvI1V6XNOuWRA.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/GgVu5CHf0vL7NNvjqQbqCQpxoPKn6HjvI1V6XNOuWRA.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/GgVu5CHf0vL7NNvjqQbqCQpxoPKn6HjvI1V6XNOuWRA.png"
+                },
+                "clanLevel": 1,
+                "stars": 10,
+                "destructionPercentage": 85
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20191216T085809.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 13,
+                "destructionPercentage": 89.4,
+                "expEarned": 134
+            },
+            "opponent": {
+                "tag": "#PR8QV29",
+                "name": "Barbari",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/vzzebrfiBc8-sctQ_pyYqTMnaHVbw1eg9LP7PusBbks.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/vzzebrfiBc8-sctQ_pyYqTMnaHVbw1eg9LP7PusBbks.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/vzzebrfiBc8-sctQ_pyYqTMnaHVbw1eg9LP7PusBbks.png"
+                },
+                "clanLevel": 15,
+                "stars": 11,
+                "destructionPercentage": 84
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20191214T095236.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 11,
+                "destructionPercentage": 84.6,
+                "expEarned": 84
+            },
+            "opponent": {
+                "tag": "#PQU0ULCC",
+                "name": "黑暗 ┣☠┫ 泰坦",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/IgfhOP6GBkWV-Moug3wlZ0kpS23RsUhXbEYdf3YYG4k.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/IgfhOP6GBkWV-Moug3wlZ0kpS23RsUhXbEYdf3YYG4k.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/IgfhOP6GBkWV-Moug3wlZ0kpS23RsUhXbEYdf3YYG4k.png"
+                },
+                "clanLevel": 14,
+                "stars": 12,
+                "destructionPercentage": 90.8
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20191212T095251.000Z",
+            "teamSize": 10,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 20,
+                "stars": 26,
+                "destructionPercentage": 94.7,
+                "expEarned": 183
+            },
+            "opponent": {
+                "tag": "#PLCP2V2J",
+                "name": "Deluxe Lounge",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/zAALdH76FB_gpMjsD2bFax5-BHYJj-IzqHN3U9UIFuk.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/zAALdH76FB_gpMjsD2bFax5-BHYJj-IzqHN3U9UIFuk.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/zAALdH76FB_gpMjsD2bFax5-BHYJj-IzqHN3U9UIFuk.png"
+                },
+                "clanLevel": 17,
+                "stars": 24,
+                "destructionPercentage": 86.2
+            }
+        },
+        {
+            "result": null,
+            "endTime": "20191210T055829.000Z",
+            "teamSize": 15,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 104,
+                "stars": 275,
+                "destructionPercentage": 563.13336,
+                "expEarned": 0
+            },
+            "opponent": {
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png"
+                },
+                "clanLevel": 0,
+                "stars": 198,
+                "destructionPercentage": 0
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20191130T092806.000Z",
+            "teamSize": 10,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 19,
+                "stars": 22,
+                "destructionPercentage": 81.9,
+                "expEarned": 127
+            },
+            "opponent": {
+                "tag": "#PVLR9UUJ",
+                "name": "炽焰＆奔流",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/HOyVKZMfxhbXdn81aKxpH5k91iKl6d0-wTiyxnIb_P0.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/HOyVKZMfxhbXdn81aKxpH5k91iKl6d0-wTiyxnIb_P0.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/HOyVKZMfxhbXdn81aKxpH5k91iKl6d0-wTiyxnIb_P0.png"
+                },
+                "clanLevel": 17,
+                "stars": 26,
+                "destructionPercentage": 95.9
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20191128T092247.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 15,
+                "destructionPercentage": 100,
+                "expEarned": 130
+            },
+            "opponent": {
+                "tag": "#YC20LRUY",
+                "name": "النعمى 1",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/D86XuEJ_yoqCfQnyk0O6CQoRvdGB5bvCRS2EST9t23A.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/D86XuEJ_yoqCfQnyk0O6CQoRvdGB5bvCRS2EST9t23A.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/D86XuEJ_yoqCfQnyk0O6CQoRvdGB5bvCRS2EST9t23A.png"
+                },
+                "clanLevel": 15,
+                "stars": 0,
+                "destructionPercentage": 0
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20191126T100914.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 11,
+                "destructionPercentage": 83.6,
+                "expEarned": 82
+            },
+            "opponent": {
+                "tag": "#UUQGVCVL",
+                "name": "灵魂流浪者",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/QfqIYX1UmCHvVatWLkAeWJfCZcU6LQwJtaNWtN3wi1g.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/QfqIYX1UmCHvVatWLkAeWJfCZcU6LQwJtaNWtN3wi1g.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/QfqIYX1UmCHvVatWLkAeWJfCZcU6LQwJtaNWtN3wi1g.png"
+                },
+                "clanLevel": 12,
+                "stars": 11,
+                "destructionPercentage": 85.6
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20191124T092948.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 8,
+                "destructionPercentage": 63.2,
+                "expEarned": 56
+            },
+            "opponent": {
+                "tag": "#PJRCY2CC",
+                "name": "月堡",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/zsTBSiSNPcZ8ODS0SreKS3AsMrnGYB4FQGMeeA9iJ4o.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/zsTBSiSNPcZ8ODS0SreKS3AsMrnGYB4FQGMeeA9iJ4o.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/zsTBSiSNPcZ8ODS0SreKS3AsMrnGYB4FQGMeeA9iJ4o.png"
+                },
+                "clanLevel": 17,
+                "stars": 12,
+                "destructionPercentage": 90.2
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20191122T093305.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 12,
+                "destructionPercentage": 88.6,
+                "expEarned": 81
+            },
+            "opponent": {
+                "tag": "#8QUVVCY",
+                "name": "war ae",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/38spj4OA2IALyJuisJzKho7WH1Zeh2aguyuhM74jMV4.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/38spj4OA2IALyJuisJzKho7WH1Zeh2aguyuhM74jMV4.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/38spj4OA2IALyJuisJzKho7WH1Zeh2aguyuhM74jMV4.png"
+                },
+                "clanLevel": 12,
+                "stars": 13,
+                "destructionPercentage": 91.6
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20191120T093036.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 15,
+                "destructionPercentage": 100,
+                "expEarned": 130
+            },
+            "opponent": {
+                "tag": "#RG09UUCJ",
+                "name": "ttc",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/NgeXwrd-igt-62UnIu-5AXMFqgaFiRfzu-18u8ArZ00.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/NgeXwrd-igt-62UnIu-5AXMFqgaFiRfzu-18u8ArZ00.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/NgeXwrd-igt-62UnIu-5AXMFqgaFiRfzu-18u8ArZ00.png"
+                },
+                "clanLevel": 11,
+                "stars": 9,
+                "destructionPercentage": 67
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20191118T092655.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 10,
+                "destructionPercentage": 83.8,
+                "expEarned": 80
+            },
+            "opponent": {
+                "tag": "#LLJ8202U",
+                "name": "#BanksOnThat",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/saDz0PXL7QfUXWyPB5oXeemo160QmfXaR0XQYu55DXI.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/saDz0PXL7QfUXWyPB5oXeemo160QmfXaR0XQYu55DXI.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/saDz0PXL7QfUXWyPB5oXeemo160QmfXaR0XQYu55DXI.png"
+                },
+                "clanLevel": 16,
+                "stars": 12,
+                "destructionPercentage": 88.6
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20191116T091334.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 10,
+                "stars": 10,
+                "destructionPercentage": 80.6,
+                "expEarned": 83
+            },
+            "opponent": {
+                "tag": "#LJUVU88Y",
+                "name": "빛고을",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/aK6C1nOwsWW9TzRot4BUoPdvZLsFS8sK7qfnU4Ehv9w.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/aK6C1nOwsWW9TzRot4BUoPdvZLsFS8sK7qfnU4Ehv9w.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/aK6C1nOwsWW9TzRot4BUoPdvZLsFS8sK7qfnU4Ehv9w.png"
+                },
+                "clanLevel": 16,
+                "stars": 14,
+                "destructionPercentage": 99.2
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20191114T063146.000Z",
+            "teamSize": 10,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 16,
+                "stars": 22,
+                "destructionPercentage": 90.5,
+                "expEarned": 127
+            },
+            "opponent": {
+                "tag": "#LLCUQP2U",
+                "name": "不灭王朝",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/MdKlq9Fmuu1ATMZONNXYGzkaTElYEYYZrChk10eF8GI.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/MdKlq9Fmuu1ATMZONNXYGzkaTElYEYYZrChk10eF8GI.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/MdKlq9Fmuu1ATMZONNXYGzkaTElYEYYZrChk10eF8GI.png"
+                },
+                "clanLevel": 15,
+                "stars": 25,
+                "destructionPercentage": 86.8
+            }
+        },
+        {
+            "result": null,
+            "endTime": "20191110T014211.000Z",
+            "teamSize": 15,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/cWALcvn8_OemsVg6REqa-DbsyMXrJdbS8GUBrKRIdD8.png"
+                },
+                "clanLevel": 15,
+                "attacks": 103,
+                "stars": 231,
+                "destructionPercentage": 531.06665,
+                "expEarned": 0
+            },
+            "opponent": {
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png"
+                },
+                "clanLevel": 0,
+                "stars": 205,
+                "destructionPercentage": 0
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20191101T111450.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png"
+                },
+                "clanLevel": 14,
+                "attacks": 10,
+                "stars": 12,
+                "destructionPercentage": 95.8,
+                "expEarned": 130
+            },
+            "opponent": {
+                "tag": "#PQU90J2U",
+                "name": "ViệtNam Ss_No1",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/GoBtr38rJrxXb00OL8A8DFWYN6l7Yb6pqidIsSgyriM.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/GoBtr38rJrxXb00OL8A8DFWYN6l7Yb6pqidIsSgyriM.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/GoBtr38rJrxXb00OL8A8DFWYN6l7Yb6pqidIsSgyriM.png"
+                },
+                "clanLevel": 12,
+                "stars": 9,
+                "destructionPercentage": 89.6
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20191030T063457.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png"
+                },
+                "clanLevel": 14,
+                "attacks": 8,
+                "stars": 13,
+                "destructionPercentage": 92.2,
+                "expEarned": 131
+            },
+            "opponent": {
+                "tag": "#98P90U9J",
+                "name": "Q Q Bang Bang",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/4c4hjMVW6Snm5sXZ54L-FDMF3g8SjKEOxjYheYcAvyw.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/4c4hjMVW6Snm5sXZ54L-FDMF3g8SjKEOxjYheYcAvyw.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/4c4hjMVW6Snm5sXZ54L-FDMF3g8SjKEOxjYheYcAvyw.png"
+                },
+                "clanLevel": 13,
+                "stars": 8,
+                "destructionPercentage": 53.2
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20191028T035226.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png"
+                },
+                "clanLevel": 14,
+                "attacks": 10,
+                "stars": 14,
+                "destructionPercentage": 99.6,
+                "expEarned": 130
+            },
+            "opponent": {
+                "tag": "#URQJ0CCU",
+                "name": "오아시스",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/AmknD441Koj7BZbs3rBHOwGUBzTu2Zj-MQpO8ClCWQU.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/AmknD441Koj7BZbs3rBHOwGUBzTu2Zj-MQpO8ClCWQU.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/AmknD441Koj7BZbs3rBHOwGUBzTu2Zj-MQpO8ClCWQU.png"
+                },
+                "clanLevel": 10,
+                "stars": 14,
+                "destructionPercentage": 95
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20191025T101230.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png"
+                },
+                "clanLevel": 14,
+                "attacks": 9,
+                "stars": 12,
+                "destructionPercentage": 92.4,
+                "expEarned": 130
+            },
+            "opponent": {
+                "tag": "#20J2R0VQQ",
+                "name": "Maharlika",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/B5tt85qcprgDTKEDt-CD5LDZDfzSo7ULl7XE_475hHE.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/B5tt85qcprgDTKEDt-CD5LDZDfzSo7ULl7XE_475hHE.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/B5tt85qcprgDTKEDt-CD5LDZDfzSo7ULl7XE_475hHE.png"
+                },
+                "clanLevel": 5,
+                "stars": 0,
+                "destructionPercentage": 0
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20191020T110255.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png"
+                },
+                "clanLevel": 14,
+                "attacks": 10,
+                "stars": 12,
+                "destructionPercentage": 93.2,
+                "expEarned": 132
+            },
+            "opponent": {
+                "tag": "#Y8L229UL",
+                "name": "coc拆迁队",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/kMR4ve33FHUDOIG8CgyILEpgq50PZFQBrpolwGly0Pk.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/kMR4ve33FHUDOIG8CgyILEpgq50PZFQBrpolwGly0Pk.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/kMR4ve33FHUDOIG8CgyILEpgq50PZFQBrpolwGly0Pk.png"
+                },
+                "clanLevel": 18,
+                "stars": 12,
+                "destructionPercentage": 89.4
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20191017T105157.000Z",
+            "teamSize": 10,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png"
+                },
+                "clanLevel": 14,
+                "attacks": 18,
+                "stars": 22,
+                "destructionPercentage": 83.7,
+                "expEarned": 127
+            },
+            "opponent": {
+                "tag": "#LLVJ8RYC",
+                "name": "jeeko",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/QgextH9AvDFWFsnM2jocjq95_PWNMGkAqWuPlkcFaLw.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/QgextH9AvDFWFsnM2jocjq95_PWNMGkAqWuPlkcFaLw.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/QgextH9AvDFWFsnM2jocjq95_PWNMGkAqWuPlkcFaLw.png"
+                },
+                "clanLevel": 15,
+                "stars": 25,
+                "destructionPercentage": 92.3
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20191014T142858.000Z",
+            "teamSize": 10,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png"
+                },
+                "clanLevel": 14,
+                "attacks": 19,
+                "stars": 23,
+                "destructionPercentage": 83.8,
+                "expEarned": 175
+            },
+            "opponent": {
+                "tag": "#P2JGCLPL",
+                "name": "빵별클럽",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/IXt3NbB0RfSzTjsOxByyr5TjYXVNwXF21NBU3VKHNts.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/IXt3NbB0RfSzTjsOxByyr5TjYXVNwXF21NBU3VKHNts.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/IXt3NbB0RfSzTjsOxByyr5TjYXVNwXF21NBU3VKHNts.png"
+                },
+                "clanLevel": 17,
+                "stars": 21,
+                "destructionPercentage": 77.3
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20191011T052510.000Z",
+            "teamSize": 15,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png"
+                },
+                "clanLevel": 14,
+                "attacks": 103,
+                "stars": 296,
+                "destructionPercentage": 613.6667,
+                "expEarned": 0
+            },
+            "opponent": {
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png"
+                },
+                "clanLevel": 0,
+                "stars": 163,
+                "destructionPercentage": 0
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20191001T152648.000Z",
+            "teamSize": 10,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png"
+                },
+                "clanLevel": 14,
+                "attacks": 17,
+                "stars": 26,
+                "destructionPercentage": 93.2,
+                "expEarned": 174
+            },
+            "opponent": {
+                "tag": "#LYRLC0JU",
+                "name": "clan tinh yeu",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/1_CdCfSSmBwq2ZmCSaZC07YLeE5NKUwHuE-dZy3mov0.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/1_CdCfSSmBwq2ZmCSaZC07YLeE5NKUwHuE-dZy3mov0.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/1_CdCfSSmBwq2ZmCSaZC07YLeE5NKUwHuE-dZy3mov0.png"
+                },
+                "clanLevel": 16,
+                "stars": 21,
+                "destructionPercentage": 75.3
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20190928T101420.000Z",
+            "teamSize": 5,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png"
+                },
+                "clanLevel": 14,
+                "attacks": 10,
+                "stars": 14,
+                "destructionPercentage": 96.4,
+                "expEarned": 130
+            },
+            "opponent": {
+                "tag": "#9CL90GYQ",
+                "name": "Thunder Emperor",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/ufLI10UamzBmBaunceWq28ljmovEzjizB4IIJXBiCC0.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/ufLI10UamzBmBaunceWq28ljmovEzjizB4IIJXBiCC0.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/ufLI10UamzBmBaunceWq28ljmovEzjizB4IIJXBiCC0.png"
+                },
+                "clanLevel": 16,
+                "stars": 10,
+                "destructionPercentage": 67.4
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20190923T021651.000Z",
+            "teamSize": 10,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png"
+                },
+                "clanLevel": 14,
+                "attacks": 20,
+                "stars": 26,
+                "destructionPercentage": 90.7,
+                "expEarned": 177
+            },
+            "opponent": {
+                "tag": "#8LLUP8Y8",
+                "name": "天地会",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/D86XuEJ_yoqCfQnyk0O6CQoRvdGB5bvCRS2EST9t23A.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/D86XuEJ_yoqCfQnyk0O6CQoRvdGB5bvCRS2EST9t23A.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/D86XuEJ_yoqCfQnyk0O6CQoRvdGB5bvCRS2EST9t23A.png"
+                },
+                "clanLevel": 15,
+                "stars": 22,
+                "destructionPercentage": 73.2
+            }
+        },
+        {
+            "result": "lose",
+            "endTime": "20190920T145217.000Z",
+            "teamSize": 10,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png"
+                },
+                "clanLevel": 14,
+                "attacks": 20,
+                "stars": 24,
+                "destructionPercentage": 85.1,
+                "expEarned": 125
+            },
+            "opponent": {
+                "tag": "#PQC9VJR0",
+                "name": "kasak kussuk",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/aulDo4t-YoD6iisryXmdDKP6Hm8gFoeAhqYl332h_BM.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/aulDo4t-YoD6iisryXmdDKP6Hm8gFoeAhqYl332h_BM.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/aulDo4t-YoD6iisryXmdDKP6Hm8gFoeAhqYl332h_BM.png"
+                },
+                "clanLevel": 17,
+                "stars": 25,
+                "destructionPercentage": 93.1
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20190918T082406.000Z",
+            "teamSize": 10,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png"
+                },
+                "clanLevel": 14,
+                "attacks": 20,
+                "stars": 24,
+                "destructionPercentage": 92.9,
+                "expEarned": 175
+            },
+            "opponent": {
+                "tag": "#80YQR8R9",
+                "name": "WaRcOm VeTeRaNs",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/VZNO0NgO6qdn26Ps833lif-7AjouOeGF3pL8AUDG2t4.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/VZNO0NgO6qdn26Ps833lif-7AjouOeGF3pL8AUDG2t4.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/VZNO0NgO6qdn26Ps833lif-7AjouOeGF3pL8AUDG2t4.png"
+                },
+                "clanLevel": 16,
+                "stars": 21,
+                "destructionPercentage": 75.4
+            }
+        },
+        {
+            "result": null,
+            "endTime": "20190910T171139.000Z",
+            "teamSize": 15,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png"
+                },
+                "clanLevel": 14,
+                "attacks": 105,
+                "stars": 252,
+                "destructionPercentage": 585.3333,
+                "expEarned": 0
+            },
+            "opponent": {
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png"
+                },
+                "clanLevel": 0,
+                "stars": 195,
+                "destructionPercentage": 0
+            }
+        },
+        {
+            "result": null,
+            "endTime": "20190810T115247.000Z",
+            "teamSize": 15,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png"
+                },
+                "clanLevel": 14,
+                "attacks": 105,
+                "stars": 267,
+                "destructionPercentage": 561.5333,
+                "expEarned": 0
+            },
+            "opponent": {
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png"
+                },
+                "clanLevel": 0,
+                "stars": 189,
+                "destructionPercentage": 0
+            }
+        },
+        {
+            "result": "win",
+            "endTime": "20190709T082632.000Z",
+            "teamSize": 15,
+            "clan": {
+                "tag": "#28PL2YCQ",
+                "name": "Alliance force",
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/doJ8o2lsMo8S1bjvj0Y_iDPKZvJNF1uudiaiZZYj5wM.png"
+                },
+                "clanLevel": 14,
+                "attacks": 105,
+                "stars": 320,
+                "destructionPercentage": 623.8,
+                "expEarned": 0
+            },
+            "opponent": {
+                "badgeUrls": {
+                    "small": "https://api-assets.clashofclans.com/badges/70/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "large": "https://api-assets.clashofclans.com/badges/512/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+                    "medium": "https://api-assets.clashofclans.com/badges/200/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png"
+                },
+                "clanLevel": 0,
+                "stars": 171,
+                "destructionPercentage": 0
+            }
+        }
+    ],
+    "paging": {
+        "cursors": []
+    }
+}

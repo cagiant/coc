@@ -56,7 +56,7 @@
         },
         methods: {
             getData() {
-                axios.get('/data')
+                axios.get('/leagueGroupData')
                     .then((res) => {
                         let result = res.data;
                         console.log(result);
@@ -79,7 +79,7 @@
                 });
             },
             refreshData() {
-                axios.get('/refresh')
+                axios.get('/refreshCurrentWarInfo')
                     .then((res) => {
                         this.getData();
                         console.log(res.data);

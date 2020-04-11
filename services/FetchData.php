@@ -9,9 +9,9 @@ use coc\constants\Constants;
 use coc\dao\MyDB;
 use coc\utils\Math;
 
-class GetData
+class FetchData
 {
-    public function getSummaryData()
+    public function leagueGroupSummaryData()
     {
         $season      = date('Y-m');
         $attackInfo  = $this->getAttackInfo($season);
@@ -20,19 +20,19 @@ class GetData
         return $this->summaryData($attackInfo, $defenseInfo);
     }
 
-    public function getDetailData()
+    public function leagueGroupWarDetailData()
     {
-        return $this->getWarDetail();
+        return $this->getLeagueGroupWarDetail();
     }
 
-    public function getWarDetail()
+    public function getLeagueGroupWarDetail()
     {
         $sql = sprintf("
             SELECT 
                 base_member_info.`name`,
                 war_details.stars,
                 war_details.`destruction_percentage`,
-                IFNULL(war_details.`attack_order`, 9999) AS `attack_order`
+                IFNULL(war_details.`attack_order`, 0) AS `attack_order`
             FROM
                 `coc_league_group_war_clan_info` war_clan_relation
                     JOIN
@@ -162,7 +162,7 @@ class GetData
         ];
 
         foreach ($attackInfo as $attack) {
-            $attack['total_star'] = (int) $attack['total_star'];
+            $attack['total_star']             = (int)$attack['total_star'];
             $attack['avg_attack_star']        = Math::division($attack['total_star'], $attack['total_attack']);
             $attack['avg_attack_percent']     = Math::division($attack['destruction_percentage'], $attack['total_attack']);
             $attack['destruction_percentage'] = (int)$attack['destruction_percentage'];
@@ -170,7 +170,7 @@ class GetData
         }
 
         foreach ($defenseInfo as $defense) {
-            $defense['defense_total_star'] = (int) $defense['defense_total_star'];
+            $defense['defense_total_star']             = (int)$defense['defense_total_star'];
             $defense['avg_defense_star']               = Math::division($defense['defense_total_star'], $defense['defense_total_attack']);
             $defense['avg_defense_percent']            = Math::division($defense['defense_destruction_percentage'], $defense['defense_total_attack']);
             $defense['defense_destruction_percentage'] = (int)$defense['defense_destruction_percentage'];
@@ -199,5 +199,150 @@ class GetData
         $result = Math::arraySort($result, 'adr', SORT_DESC);
 
         return $result;
+    }
+
+    /**
+     * 如果在联赛中，展示联赛信息
+     * 否则展示最近一场战争的信息
+     * author: guokaiqiang
+     * date: 2020/4/12 14:30
+     */
+    public function currentWarData()
+    {
+        $isInLeague = $this->isInLeague();
+
+        if ($isInLeague) {
+            $result = $this->leagueGroupWarInfos();
+        } else {
+            $result = $this->lastClanWarInfo();
+        }
+
+        return $result;
+    }
+
+    private function isInLeague()
+    {
+        $season = date('Y-m');
+        $sql    = sprintf("select * from coc_league_group where season = '%s' and state != 'ended'", $season);
+        $result = MyDB::db()->getOne($sql);
+
+        return !empty($result);
+    }
+
+    public function leagueGroupWarInfos()
+    {
+        $summaryData = $this->leagueGroupSummaryData();
+        $detailData  = $this->leagueGroupWarDetailData();
+
+        return [
+            $summaryData,
+            $detailData,
+        ];
+    }
+
+    private function lastClanWarInfo()
+    {
+        $summaryData = $this->clanWarSummaryData();
+        $detailData  = $this->clanWarDetailData();
+
+        return [
+            $summaryData,
+            $detailData,
+        ];
+    }
+
+    public function clanWarSummaryData()
+    {
+        $attackSummary  = $this->clanWarAttackSummary();
+        $defenseSummary = $this->clanWarDefenseSummary();
+
+        return $this->summaryData($attackSummary, $defenseSummary);
+    }
+
+    private function clanWarAttackSummary()
+    {
+        $attackSql = sprintf("
+            SELECT 
+                IFNULL(SUM(war_detail.`stars`), 0) AS `total_star`,
+                IFNULL(SUM(war_detail.`destruction_percentage`), 0) AS `destruction_percentage`,
+                2 AS `total_attack`,
+                member.name,
+                member.tag
+            FROM
+                `coc_clan_wars` war
+                    JOIN
+                `coc_clan_war_members` war_member ON war_member.`war_id` = war.`id`
+                    LEFT JOIN
+                `coc_clan_war_details` war_detail ON war_detail.`war_id` = war.`id`AND war_member.`tag` = war_detail.`attacker_tag`
+                    JOIN
+                `coc_clan_members` member ON member.`tag` = war_member.`tag`
+            WHERE
+                war.`clan_tag` = '%s'
+                    AND war.`end_time` = (SELECT 
+                        MAX(end_time)
+                    FROM
+                        `coc_clan_wars`) 
+            GROUP BY member.tag
+        ", Config::$myClanTag);
+
+        return MyDB::db()->getAll($attackSql);
+    }
+
+    private function clanWarDefenseSummary()
+    {
+        $defenseSql = sprintf("
+            SELECT 
+                SUM(war_detail.`stars`) AS `defense_total_star`,
+                SUM(war_detail.`destruction_percentage`) AS `defense_destruction_percentage`,
+                count(war_detail.id) AS `defense_total_attack`,
+                member.name,
+                member.tag
+            FROM
+                `coc_clan_wars` war
+                    JOIN
+                `coc_clan_war_members` war_member ON war_member.`war_id` = war.`id`
+                    JOIN
+                `coc_clan_war_details` war_detail ON war_detail.`war_id` = war.`id`AND war_member.`tag` = war_detail.`defender_tag`
+                    JOIN
+                `coc_clan_members` member ON member.`tag` = war_member.`tag`
+            WHERE
+                war.`clan_tag` = '%s'
+                    AND war.`end_time` = (SELECT 
+                        MAX(end_time)
+                    FROM
+                        `coc_clan_wars`) 
+            GROUP BY member.tag
+        ", Config::$myClanTag);
+
+        return MyDB::db()->getAll($defenseSql);
+    }
+
+    private function clanWarDetailData()
+    {
+        $sql = sprintf("
+            SELECT 
+                member.`name`,
+                war_detail.stars,
+                war_detail.`destruction_percentage`,
+                IFNULL(war_detail.`attack_order`, 0) AS `attack_order`
+            FROM
+                `coc_clan_wars` war
+                    JOIN
+                `coc_clan_war_members` war_member ON war_member.`war_id` = war.`id`
+                    LEFT JOIN
+                `coc_clan_war_details` war_detail ON war_detail.`war_id` = war.`id`
+                    AND war_detail.`attacker_tag` = war_member.`tag`
+                    JOIN
+                `coc_clan_members` member ON war_member.`tag` = member.`tag`
+            WHERE
+                war.`clan_tag` = '%s'
+                AND war.`end_time` = (SELECT 
+                        MAX(end_time)
+                    FROM
+                        `coc_clan_wars`)
+            ORDER BY war_detail.attack_order DESC
+        ", Config::$myClanTag);
+
+        return MyDB::db()->getAll($sql);
     }
 }
