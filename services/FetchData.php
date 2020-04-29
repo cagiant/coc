@@ -8,9 +8,44 @@ use coc\config\Config;
 use coc\constants\Constants;
 use coc\dao\MyDB;
 use coc\utils\Math;
+use coc\utils\MsgUtil;
 
 class FetchData
 {
+    private static function processInfos($infos)
+    {
+        $infoExtend = [];
+        $infoProcessed = [];
+        foreach ($infos as $info) {
+            $name = $info['name'];
+            if (!isset($infoExtend[$name])) {
+                $infoExtend[$name] = 1;
+            }
+            if (empty($info['detail_type'])) {
+                continue;
+            }
+            $info['msg'] = MsgUtil::generateDetailMsg($info['detail_type'], $info['name'], $info['stars'], $info['destruction_percentage']);
+            if ($info['detail_type'] == 'attack') {
+                $infoExtend[$name] = 0;
+            }
+            $infoProcessed[] = $info;
+        }
+
+        foreach ($infoExtend as $name => $v) {
+            if (empty($v)) {
+                continue;
+            }
+            $infoTmp = [
+                'name' => $name,
+                'msg' => $name . '大佬尚未出手',
+                'is_zero_attack' => true,
+            ];
+            $infoProcessed[] = $infoTmp;
+        }
+
+        return $infoProcessed;
+    }
+
     public function leagueGroupSummaryData()
     {
         $season      = date('Y-m');
@@ -23,37 +58,6 @@ class FetchData
     public function leagueGroupWarDetailData()
     {
         return $this->getLeagueGroupWarDetail();
-    }
-
-    public function getLeagueGroupWarDetail()
-    {
-        $sql = sprintf("
-            SELECT 
-                base_member_info.`name`,
-                war_details.stars,
-                war_details.`destruction_percentage`,
-                IFNULL(war_details.`attack_order`, 0) AS `attack_order`
-            FROM
-                `coc_league_group_war_clan_info` war_clan_relation
-                    JOIN
-                `coc_league_group_wars` wars ON war_clan_relation.`war_tag` = wars.`tag`
-                    JOIN
-                `coc_league_group_war_clan_member_info` war_member ON war_member.`war_tag` = wars.`tag`
-                    AND war_member.`clan_tag` = war_clan_relation.`clan_tag`
-                    LEFT JOIN
-                `coc_league_group_war_deails` war_details ON war_details.`war_tag` = wars.`tag`
-                    AND war_details.`attacker_tag` = war_member.`member_tag`
-                    JOIN
-                `coc_league_group_clan_members` base_member_info ON war_member.`member_tag` = base_member_info.`tag`
-            WHERE
-                war_clan_relation.`clan_tag` = '%s'
-                    AND wars.`state` = '%s'
-            ORDER BY `attack_order` DESC
-        ",
-            Config::$myClanTag,
-            Constants::WAR_STATE_IN_WAR);
-
-        return MyDB::db()->getAll($sql);
     }
 
     /**
@@ -323,6 +327,7 @@ class FetchData
             SELECT 
                 member.`name`,
                 war_detail.stars,
+                if (war_detail.attacker_tag is null, '', if (war_detail.attacker_tag = war_member.tag, 'attack', 'defense')) as `detail_type`,
                 war_detail.`destruction_percentage`,
                 IFNULL(war_detail.`attack_order`, 0) AS `attack_order`
             FROM
@@ -331,7 +336,7 @@ class FetchData
                 `coc_clan_war_members` war_member ON war_member.`war_id` = war.`id`
                     LEFT JOIN
                 `coc_clan_war_details` war_detail ON war_detail.`war_id` = war.`id`
-                    AND war_detail.`attacker_tag` = war_member.`tag`
+                    AND (war_detail.`attacker_tag` = war_member.`tag` or war_detail.`defender_tag` = war_member.`tag`)
                     JOIN
                 `coc_clan_members` member ON war_member.`tag` = member.`tag`
             WHERE
@@ -343,6 +348,43 @@ class FetchData
             ORDER BY war_detail.attack_order DESC
         ", Config::$myClanTag);
 
-        return MyDB::db()->getAll($sql);
+        $infos = MyDB::db()->getAll($sql);
+
+        return self::processInfos($infos);
+    }
+
+
+    public function getLeagueGroupWarDetail()
+    {
+        $sql = sprintf("
+            SELECT 
+                base_member_info.`name`,
+                war_details.stars,
+                if (war_details.attacker_tag is null, '', if (war_details.attacker_tag = war_member.tag, 'attack', 'defense')) as `detail_type`,
+                war_details.`destruction_percentage`,
+                IFNULL(war_details.`attack_order`, 0) AS `attack_order`
+            FROM
+                `coc_league_group_war_clan_info` war_clan_relation
+                    JOIN
+                `coc_league_group_wars` wars ON war_clan_relation.`war_tag` = wars.`tag`
+                    JOIN
+                `coc_league_group_war_clan_member_info` war_member ON war_member.`war_tag` = wars.`tag`
+                    AND war_member.`clan_tag` = war_clan_relation.`clan_tag`
+                    LEFT JOIN
+                `coc_league_group_war_deails` war_details ON war_details.`war_tag` = wars.`tag`
+                    AND (war_details.`attacker_tag` = war_member.`member_tag` or war_details.defender_tag = war_member.member_tag)
+                    JOIN
+                `coc_league_group_clan_members` base_member_info ON war_member.`member_tag` = base_member_info.`tag`
+            WHERE
+                war_clan_relation.`clan_tag` = '%s'
+                    AND wars.`state` = '%s'
+            ORDER BY `attack_order` DESC
+        ",
+            Config::$myClanTag,
+            Constants::WAR_STATE_IN_WAR);
+
+        $infos = MyDB::db()->getAll($sql);
+
+        return self::processInfos($infos);
     }
 }

@@ -18,13 +18,25 @@ const CurrentWarPage = {
             </el-table>
         </el-tab-pane>
         <el-tab-pane label="当前战争详情" name="second">
-            <div v-for="(detail, index) in detailData">
-                <span>{{detail.name}}</span>
-                <el-divider direction="vertical"></el-divider>
-                <span>{{detail.stars}}</span>
-                <el-divider direction="vertical"></el-divider>
-                <span>{{detail.destruction_percentage}}</span>
+            <div>
+                <el-radio v-model="radio" label="w">全部事件</el-radio>    
+                <el-radio v-model="radio" label="a">只看进攻</el-radio>
+                <el-radio v-model="radio" label="d">只看防守</el-radio>    
+            </div>
+            <div v-for="(detail, index) in detailData" 
+                v-if="(detail.detail_type =='attack' && radio != 'd') || (detail.detail_type == 'defense' && radio != 'a') || (detail.is_zero_attack)">
                 <el-divider></el-divider>
+                <span v-if="detail.is_zero_attack">
+                    <el-tag type="danger">大佬</el-tag>
+                </span>
+                <span v-if="detail.detail_type =='attack'">
+                    <el-tag type="success">事件序号：{{detail.attack_order}}</el-tag>
+                </span>
+                <span v-if="detail.detail_type =='defense'">
+                    <el-tag type="warning">事件序号：{{detail.attack_order}}</el-tag>
+                </span>
+                <el-divider direction="vertical"></el-divider>
+                <span>{{detail.msg}}</span>
             </div>
         </el-tab-pane>
     </el-tabs>
@@ -34,6 +46,7 @@ const CurrentWarPage = {
             summaryData: [],
             detailData: [],
             activeName: 'first',
+            radio: 'w',
         }
     },
     methods: {
