@@ -360,7 +360,7 @@ class FetchData
             SELECT 
                 base_member_info.`name`,
                 war_details.stars,
-                if (war_details.attacker_tag is null, '', if (war_details.attacker_tag = war_member.tag, 'attack', 'defense')) as `detail_type`,
+                if (war_details.attacker_tag is null, '', if (war_details.attacker_tag = war_member.member_tag, 'attack', 'defense')) as `detail_type`,
                 war_details.`destruction_percentage`,
                 IFNULL(war_details.`attack_order`, 0) AS `attack_order`
             FROM

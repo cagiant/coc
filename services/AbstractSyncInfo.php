@@ -2,6 +2,7 @@
 namespace coc\services;
 
 use coc\config\Config;
+use coc\utils\Logger;
 
 abstract class AbstractSyncInfo
 {
@@ -32,7 +33,10 @@ abstract class AbstractSyncInfo
         curl_setopt($ch, CURLINFO_HEADER_OUT, true);
         curl_setopt($ch, CURLOPT_TIMEOUT, 60 * 3);//超时时间3分钟
 
-        return curl_exec($ch);
+        $result = curl_exec($ch);
+//        Logger::log($result);
+
+        return $result;
     }
 
     public abstract function syncInfo();
