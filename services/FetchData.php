@@ -378,6 +378,7 @@ class FetchData
             WHERE
                 war_clan_relation.`clan_tag` = '%s'
                     AND wars.`state` = '%s'
+            GROUP BY  war_details.`attacker_tag` 
             ORDER BY `attack_order` DESC
         ",
             Config::$myClanTag,
