@@ -115,20 +115,32 @@ class FetchData
     {
         $sql = sprintf("
             SELECT 
-                 sum(war_detail.`stars`) as `defense_total_star`,
-                 sum(war_detail.`destruction_percentage`) as `defense_destruction_percentage`,
-                 count(war_detail.id) as `defense_total_attack`,
-                 base_clan_member_info.`name`,
-                 base_clan_member_info.`tag`
-            from `coc_league_group_wars` war 
-                join `coc_league_group` league_info on war.`league_group_id`= league_info.`id` 
-                join `coc_league_group_war_deails` war_detail on war.`tag`= war_detail.`war_tag` 
-                join `coc_league_group_war_clan_info` war_clan_info on war_clan_info.`clan_tag`= '%s' and war_clan_info.`war_tag`= war.`tag` 
-                join `coc_league_group_war_clan_member_info` war_clan_member_info on war_clan_member_info.`clan_tag`= war_clan_info.`clan_tag` and war_clan_member_info.`member_tag`= war_detail.`defender_tag`  and war_clan_member_info.`war_tag`= war.`tag`
-                join `coc_league_group_clan_members` base_clan_member_info on base_clan_member_info.`tag`= war_clan_member_info.`member_tag`
-            where 
-                league_info.`season`= '%s'
-            group by base_clan_member_info.`tag` ",
+                SUM(war_detail.`stars`) AS `defense_total_star`,
+                SUM(war_detail.`destruction_percentage`) AS `defense_destruction_percentage`,
+                COUNT(war_detail.id) AS `defense_total_attack`,
+                base_clan_member_info.`name`,
+                base_clan_member_info.`tag`
+            FROM
+                `coc_league_group_wars` war
+                    JOIN
+                `coc_league_group` league_info ON war.`league_group_id` = league_info.`id`
+                    JOIN
+                `coc_league_group_war_deails` war_detail ON war.`tag` = war_detail.`war_tag`
+                    JOIN
+                `coc_league_group_war_clan_info` war_clan_info ON war_clan_info.`clan_tag` = '%s'
+                    AND war_clan_info.`war_tag` = war.`tag`
+                    JOIN
+                `coc_league_group_war_clan_member_info` war_clan_member_info ON war_clan_member_info.`clan_tag` = war_clan_info.`clan_tag`
+                    AND war_clan_member_info.`member_tag` = war_detail.`defender_tag`
+                    AND war_clan_member_info.`war_tag` = war.`tag`
+                    JOIN
+                `coc_league_group_clan_members` base_clan_member_info ON base_clan_member_info.`tag` = war_clan_member_info.`member_tag`
+                    JOIN
+                `coc_league_group_clans` base_clan_info ON base_clan_member_info.`league_group_clan_id` = base_clan_info.`id`
+                    AND base_clan_info.`league_group_id` = league_info.`id`
+            WHERE
+                league_info.`season` = '%s'
+            GROUP BY base_clan_member_info.`tag`",
             Config::$myClanTag,
             $season
         );
