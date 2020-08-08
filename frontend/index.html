@@ -12,27 +12,27 @@
     <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
         <el-menu-item index="1">
             <router-link to="/currentWar" tag="li">
-                <span>战争信息</span>
+                <span>赛季部落战信息汇总</span>
             </router-link>
         </el-menu-item>
-        <el-submenu index="2">
-            <template slot="title">信息汇总</template>
-            <el-menu-item index="2-1">
-                <router-link to="/leagueGroupStatistics" tag="li">
-                    <span>联赛统计</span>
-                </router-link>
-            </el-menu-item>
-            <el-menu-item index="2-2">
-                <router-link to="/clanWarStatistics" tag="li">
-                    <span>部落战统计</span>
-                </router-link>
-            </el-menu-item>
-            <el-menu-item index="2-3">
-                <router-link to="/donationStatistics" tag="li">
-                    <span>捐兵统计</span>
-                </router-link>
-            </el-menu-item>
-        </el-submenu>
+<!--        <el-submenu index="2">-->
+<!--            <template slot="title">信息汇总</template>-->
+<!--            <el-menu-item index="2-1">-->
+<!--                <router-link to="/leagueGroupStatistics" tag="li">-->
+<!--                    <span>联赛统计</span>-->
+<!--                </router-link>-->
+<!--            </el-menu-item>-->
+<!--            <el-menu-item index="2-2">-->
+<!--                <router-link to="/clanWarStatistics" tag="li">-->
+<!--                    <span>部落战统计</span>-->
+<!--                </router-link>-->
+<!--            </el-menu-item>-->
+<!--            <el-menu-item index="2-3">-->
+<!--                <router-link to="/donationStatistics" tag="li">-->
+<!--                    <span>捐兵统计</span>-->
+<!--                </router-link>-->
+<!--            </el-menu-item>-->
+<!--        </el-submenu>-->
     </el-menu>
     <div>
         <router-view></router-view>
@@ -46,7 +46,7 @@
 <!-- import JavaScript -->
 <script src="/frontend/js/index.js"></script>
 
-<script src="/frontend/components/current_war.js"></script>
+<script src="/frontend/components/current_war.js?123"></script>
 <script>
     const routes = [
         { path: '/currentWar', name: 'currentWarPage', component: CurrentWarPage},

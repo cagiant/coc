@@ -8,5 +8,5 @@ $dispatcher = new Dispatcher();
 $dispatcher->addRouter('get', '/', 'coc\controller\WelcomeController');
 $dispatcher->addRouter('get', '/leagueGroupData', 'coc\controller\DataController', 'getLeagueGroupWarInfos');
 $dispatcher->addRouter('get', '/refreshCurrentWarInfo', 'coc\controller\DataController', 'refreshCurrentWarInfo');
-$dispatcher->addRouter('get', '/currentWarData', 'coc\controller\DataController', 'currentWarData');
+$dispatcher->addRouter('get', '/currentWarData', 'coc\controller\DataController', 'getCurrentSeasonClanWarData');
 $dispatcher->dispatch();

@@ -13,6 +13,13 @@ use coc\utils\Response;
 
 class DataController
 {
+    public function getCurrentSeasonClanWarData() {
+        $a = new FetchData();
+        $result = $a->getCurrentSeasonClanWarData();
+
+        Response::jsonRes($result);
+    }
+
     public function getLeagueGroupWarInfos()
     {
         $a           = new FetchData();

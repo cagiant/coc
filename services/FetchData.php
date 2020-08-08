@@ -400,4 +400,33 @@ class FetchData
 
         return self::processInfos($infos);
     }
+
+    public function getCurrentSeasonClanWarData()
+    {
+        $season = date("Y-m");
+        $sql = sprintf("SELECT
+            ccm.name,
+            sum( ccwm.attack_no_star_time ) AS at_no_star,
+            sum( ccwm.attack_one_star_time ) AS at_one_star,
+            sum( ccwm.attack_two_star_time ) AS at_two_star,
+            sum( ccwm.attack_three_star_time ) AS at_three_star,
+            sum( ccwm.defense_three_star_time ) AS df_three_star,
+            sum( ccwm.attack_time_left ) AS at_time_left,
+            sum( ccwm.attack_time_used ) AS at_time_used 
+        FROM
+            coc_clan_wars ccw
+            JOIN coc_clan_war_members ccwm ON ccw.clan_tag = ccwm.clan_tag 
+            AND ccw.tag = ccwm.war_tag
+            JOIN coc_clan_members ccm ON ccwm.member_tag = ccm.tag 
+        WHERE
+            ccw.clan_tag = '%s' 
+            AND ccw.season = '%s' 
+        GROUP BY
+            ccm.tag", Config::$myClanTag, $season);
+
+        return [
+            'season' => $season,
+            'detail' => Math::arraySort(MyDB::db()->getAll($sql), 'at_three_star', SORT_DESC),
+        ];
+    }
 }
