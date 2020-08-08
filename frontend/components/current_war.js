@@ -2,15 +2,15 @@ const CurrentWarPage = {
     template: `
         <el-tabs v-model="activeName" type="card">
         <el-tab-pane :label="season" name="first">
-            <el-table :data="detailData" style="width: 100%;" stripe>
+            <el-table :data="detailData" style="width: 100%;" stripe :default-sort = "{prop: 'at_three_star', order: 'descending'}">
                 <el-table-column prop="name" label="昵称" align="center" fixed></el-table-column>
-                <el-table-column prop="at_three_star" label="三星次数" align="center" sortable="true"></el-table-column>
-                <el-table-column prop="at_two_star" label="二星次数" align="center"></el-table-column>
-                <el-table-column prop="at_one_star" label="一星次数" align="center"></el-table-column>
-                <el-table-column prop="at_no_star" label="零星次数" align="center"></el-table-column>
-                <el-table-column prop="df_three_star" label="被三次数" align="center"></el-table-column>
-                <el-table-column prop="at_time_left" label="未使用进攻次数" align="center"></el-table-column>
-                <el-table-column fixed="right" label="已使用进攻次数" prop="at_time_used"></el-table-column>
+                <el-table-column prop="at_three_star" label="三星次数" align="center" sortable></el-table-column>
+                <el-table-column prop="at_two_star" label="二星次数" align="center" sortable></el-table-column>
+                <el-table-column prop="at_one_star" label="一星次数" align="center" sortable></el-table-column>
+                <el-table-column prop="at_no_star" label="零星次数" align="center" sortable></el-table-column>
+                <el-table-column prop="df_three_star" label="被三次数" align="center" sortable></el-table-column>
+                <el-table-column prop="at_time_left" label="未使用进攻次数" align="center" sortable></el-table-column>
+                <el-table-column fixed="right" label="已使用进攻次数" prop="at_time_used"> sortable</el-table-column>
             </el-table>
         </el-tab-pane>
 <!--        <el-tab-pane label="当前战争详情" name="second">-->
