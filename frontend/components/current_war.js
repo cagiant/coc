@@ -2,7 +2,7 @@ const CurrentWarPage = {
     template: `
         <el-tabs v-model="activeName" type="card">
         <el-tab-pane :label="season" name="first">
-            <el-table :data="detailData" style="width: 100%;" stripe :default-sort = "{prop: 'at_three_star', order: 'descending'}">
+            <el-table :data="detailData" style="width: 100%;" stripe>
                 <el-table-column prop="name" label="昵称" align="center" fixed></el-table-column>
                 <el-table-column prop="at_three_star" label="三星次数" align="center" sortable></el-table-column>
                 <el-table-column prop="at_two_star" label="二星次数" align="center" sortable></el-table-column>
