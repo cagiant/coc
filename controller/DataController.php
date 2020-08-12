@@ -13,9 +13,18 @@ use coc\utils\Response;
 
 class DataController
 {
-    public function getCurrentSeasonClanWarData() {
+    public function getCurrentSeasonClanWarData()
+    {
         $a = new FetchData();
         $result = $a->getCurrentSeasonClanWarData();
+
+        Response::jsonRes($result);
+    }
+
+    public function getClanInfo()
+    {
+        $a = new FetchData();
+        $result = $a->getCurrentWarClanOptionInfo();
 
         Response::jsonRes($result);
     }

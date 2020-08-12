@@ -403,6 +403,7 @@ class FetchData
 
     public function getCurrentSeasonClanWarData()
     {
+        $tag = $_POST['tag'] ?? Config::$myClanTag;
         $season = date("Y-m");
         $sql = sprintf("SELECT
             ccm.name,
@@ -425,11 +426,24 @@ class FetchData
             at_two_star DESC,
             at_one_star DESC,
             at_no_star DESC,
-            df_three_star ASC", Config::$myClanTag, $season);
+            df_three_star ASC", $tag, $season);
 
         return [
             'season' => $season,
             'detail' => MyDB::db()->getAll($sql),
+        ];
+    }
+
+    public function getCurrentWarClanOptionInfo()
+    {
+        $sql = sprintf("SELECT
+            tag,name
+            from coc_clans
+            where provide_clan_war_report = 1
+        ");
+
+        return [
+            'options' => MyDB::db()->getAll($sql)
         ];
     }
 }

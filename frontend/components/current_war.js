@@ -2,6 +2,14 @@ const CurrentWarPage = {
     template: `
         <el-tabs v-model="activeName" type="card">
         <el-tab-pane :label="season" name="first">
+        <el-dropdown @command="handleCommand">
+          <span class="el-dropdown-link">
+            {{optionSelected.name}}<i class="el-icon-arrow-down el-icon--right"></i>
+          </span>
+          <el-dropdown-menu slot="dropdown" >
+            <el-dropdown-item icon="el-icon-circle-check" v-for="(option, index) in clanOptions" :command="index">{{option.name}}</el-dropdown-item>
+          </el-dropdown-menu>
+        </el-dropdown>
             <el-table :data="detailData" style="width: 100%;" stripe>
                 <el-table-column prop="name" label="昵称" align="center" fixed></el-table-column>
                 <el-table-column prop="at_three_star" label="三星次数" align="center" sortable></el-table-column>
@@ -43,11 +51,39 @@ const CurrentWarPage = {
             detailData: [],
             activeName: 'first',
             radio: 'w',
+            optionSelected: {
+                'tag': "",
+                'name': "选择部落"
+            },
+            clanOptions: [],
         }
     },
     methods: {
+        getOption() {
+            axios.get('/currentWarDataClanInfo')
+                .then((res) => {
+                    let result = res.data;
+                    console.log(result);
+                    this.clanOptions = result.options;
+                })
+        },
         getData() {
             axios.get('/currentWarData')
+                .then((res) => {
+                    let result = res.data;
+                    console.log(result);
+                    this.season = result.season;
+                    this.detailData = result.detail;
+                    console.log(this.season);
+                    console.log(this.detailData);
+                })
+        },
+        handleCommand(index) {
+            console.log(index);
+            this.optionSelected = this.clanOptions[index];
+            let data = new FormData();
+            data.append("tag", this.optionSelected.tag);
+            axios.post('/currentWarData', data)
                 .then((res) => {
                     let result = res.data;
                     console.log(result);
@@ -80,5 +116,6 @@ const CurrentWarPage = {
     },
     created() {
         this.getData();
+        this.getOption();
     }
 };
