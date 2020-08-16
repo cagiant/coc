@@ -4,9 +4,9 @@ namespace coc\services;
 use coc\config\Config;
 use coc\utils\Logger;
 
-abstract class AbstractSyncInfo
+class HttpClient implements iHttpClient
 {
-    public function getData($url)
+    public function execute($url)
     {
         $data = json_decode($this->get($url), true);
 
@@ -38,6 +38,4 @@ abstract class AbstractSyncInfo
 
         return $result;
     }
-
-    public abstract function syncInfo();
 }
