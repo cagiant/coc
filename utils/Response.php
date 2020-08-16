@@ -8,6 +8,7 @@ class Response
 {
     public static function jsonRes(array $res)
     {
+        header('Content-Type: application/json');
         echo json_encode($res);
         exit();
     }
