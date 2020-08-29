@@ -59,7 +59,7 @@ class ProxyService
             }
         }
 
-        $sql = sprintf("insert into coc_proxy_results (`option`, tag, result) values ('%s', '%s', '%s')", $this->params->option, $this->params->tag, json_encode($result));
+        $sql = sprintf("insert into coc_proxy_results (`option`, tag, result) values ('%s', '%s', '%s')", $this->params->option, $this->params->tag, json_encode($result, JSON_UNESCAPED_UNICODE));
         MyDB::db()->insert($sql);
 
         return $result;
