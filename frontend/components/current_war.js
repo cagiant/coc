@@ -1,7 +1,15 @@
 const CurrentWarPage = {
     template: `
         <el-tabs v-model="activeName" type="card">
-        <el-tab-pane :label="season" name="first">
+        <el-tab-pane label="部落战" name="first">
+        <el-dropdown @command="handleSeasonCommand">
+          <span class="el-dropdown-link">
+            {{seasonSelected.name}}<i class="el-icon-arrow-down el-icon--right"></i>
+          </span>
+          <el-dropdown-menu slot="dropdown" >
+            <el-dropdown-item icon="el-icon-circle-check" v-for="(option, index) in seasonOptions" :command="index">{{option.season}}</el-dropdown-item>
+          </el-dropdown-menu>
+        </el-dropdown>
         <el-dropdown @command="handleCommand">
           <span class="el-dropdown-link">
             {{optionSelected.name}}<i class="el-icon-arrow-down el-icon--right"></i>
@@ -55,7 +63,12 @@ const CurrentWarPage = {
                 'tag': "",
                 'name': "选择部落"
             },
+            seasonSelected: {
+                'season': "",
+                'name': "选择赛季"
+            },
             clanOptions: [],
+            seasonOptions: [],
         }
     },
     methods: {
@@ -65,6 +78,7 @@ const CurrentWarPage = {
                     let result = res.data;
                     console.log(result);
                     this.clanOptions = result.options;
+                    this.seasonOptions = result.seasonOptions;
                 })
         },
         getData() {
@@ -81,8 +95,17 @@ const CurrentWarPage = {
         handleCommand(index) {
             console.log(index);
             this.optionSelected = this.clanOptions[index];
+            this.postGetData();
+        },
+        handleSeasonCommand(index) {
+            console.log(index);
+            this.seasonSelected = this.seasonOptions[index];
+            this.postGetData();
+        },
+        postGetData() {
             let data = new FormData();
             data.append("tag", this.optionSelected.tag);
+            data.append("season", this.seasonSelected.season);
             axios.post('/currentWarData', data)
                 .then((res) => {
                     let result = res.data;
@@ -99,20 +122,6 @@ const CurrentWarPage = {
                 duration: duration,
             });
         },
-        filterAttackStar(value, row) {
-            if (value === 1) {
-                return row.avg_attack_star >= 2;
-            } else if (value === 2) {
-                return row.avg_attack_star < 2;
-            }
-        },
-        filterAdr(value, row) {
-            if (value === 1) {
-                return row.adr >= 1;
-            } else if (value === 2) {
-                return row.adr < 1;
-            }
-        }
     },
     created() {
         this.getData();

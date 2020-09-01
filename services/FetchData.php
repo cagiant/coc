@@ -11,8 +11,8 @@ class FetchData
 {
     public function getCurrentSeasonClanWarData()
     {
-        $tag = $_POST['tag'] ?? Config::$myClanTag;
-        $season = date("Y-m");
+        $tag = $_POST['tag'] ?: Config::$myClanTag;
+        $season = $_POST['season'] ?: date("Y-m");
         $sql = sprintf("SELECT
             ccm.name,
             ccwm.attack_no_star_time AS at_no_star,
@@ -50,8 +50,11 @@ class FetchData
             where provide_clan_war_report = 1
         ");
 
+        $sqlSeason = sprintf("select season, season as 'name' from coc_report_clan_war_member group by season");
+
         return [
-            'options' => MyDB::db()->getAll($sql)
+            'options' => MyDB::db()->getAll($sql),
+            'seasonOptions' => MyDB::db()->getAll($sqlSeason),
         ];
     }
 }

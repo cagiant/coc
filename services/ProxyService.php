@@ -59,7 +59,7 @@ class ProxyService
             }
         }
 
-        $sql = sprintf("insert into coc_proxy_results (`option`, tag, result) values ('%s', '%s', '%s')", $this->params->option, $this->params->tag, json_encode($result, JSON_UNESCAPED_UNICODE));
+        $sql = sprintf("insert into coc_proxy_results (`option`, tag, result) values ('%s', '%s', '%s')", $this->params->option, $this->params->tag, addslashes(json_encode($result, JSON_UNESCAPED_UNICODE)));
         MyDB::db()->insert($sql);
 
         return $result;
@@ -70,7 +70,7 @@ class ProxyService
         $sql = sprintf("select result from coc_proxy_results where `option` = '%s' and tag = '%s' order by create_time desc limit 1", $this->params->option, $this->params->tag);
         $sqlRes = MyDB::db()->getOne($sql);
         if (!empty($sqlRes)) {
-            $result = json_decode($sqlRes, true);
+            $result = json_decode(htmlspecialchars_decode($sqlRes), true);
         }
 
         return $result;
