@@ -13,6 +13,7 @@ class FetchData
     {
         $tag = $_POST['tag'] ?: Config::$myClanTag;
         $season = $_POST['season'] ?: date("Y-m");
+        $isLeagueWar = $_POST['league'] ?: 0;
         $sql = sprintf("SELECT
             ccm.name,
             ccwm.attack_no_star_time AS at_no_star,
@@ -21,7 +22,10 @@ class FetchData
             ccwm.attack_three_star_time AS at_three_star,
             ccwm.defense_three_star_time AS df_three_star,
             ccwm.attack_time_left AS at_time_left,
-            ccwm.attack_time_used AS at_time_used 
+            ccwm.attack_time_used AS at_time_used,
+            ccwm.total_attack_star as total_star_get,
+            ccwm.total_defense_star as total_star_lose, 
+            ccwm.total_attack_star - ccwm.total_defense_star as total_star_gained 
         FROM
             coc_report_clan_war_member ccwm 
             JOIN coc_clans cc on cc.tag = ccwm.clan_tag 
@@ -29,12 +33,13 @@ class FetchData
         WHERE
             ccwm.clan_tag = '%s' 
             AND ccwm.season = '%s' 
+            and ccwm.is_league_war = %d
         ORDER BY
             at_three_star DESC,
             at_two_star DESC,
             at_one_star DESC,
             at_no_star DESC,
-            df_three_star ASC", $tag, $season);
+            df_three_star ASC", $tag, $season, $isLeagueWar);
 
         return [
             'season' => $season,
@@ -48,6 +53,22 @@ class FetchData
             tag,name
             from coc_clans
             where provide_clan_war_report = 1
+        ");
+
+        $sqlSeason = sprintf("select season, season as 'name' from coc_report_clan_war_member group by season");
+
+        return [
+            'options' => MyDB::db()->getAll($sql),
+            'seasonOptions' => MyDB::db()->getAll($sqlSeason),
+        ];
+    }
+
+    public function getCurrentSeasonLeagueWarClanInfo()
+    {
+        $sql = sprintf("SELECT
+            tag,name
+            from coc_clans
+            where provide_league_war_report = 1
         ");
 
         $sqlSeason = sprintf("select season, season as 'name' from coc_report_clan_war_member group by season");

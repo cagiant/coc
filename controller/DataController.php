@@ -35,4 +35,12 @@ class DataController
 
         Response::jsonRes($result);
     }
+
+    public function getCurrentSeasonLeagueWarClanInfo()
+    {
+        $a = new FetchData();
+        $result = $a->getCurrentSeasonLeagueWarClanInfo();
+
+        Response::jsonRes($result);
+    }
 }
