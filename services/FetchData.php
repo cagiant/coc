@@ -14,6 +14,7 @@ class FetchData
         $tag = $_POST['tag'] ?: Config::$myClanTag;
         $season = $_POST['season'] ?: date("Y-m");
         $isLeagueWar = $_POST['league'] ?: 0;
+        $orderByCustomize = $isLeagueWar ? "total_star_gained desc," : "";
         $sql = sprintf("SELECT
             ccm.name,
             ccwm.attack_no_star_time AS at_no_star,
@@ -35,11 +36,12 @@ class FetchData
             AND ccwm.season = '%s' 
             and ccwm.is_league_war = %d
         ORDER BY
+            %s
             at_three_star DESC,
             at_two_star DESC,
             at_one_star DESC,
             at_no_star DESC,
-            df_three_star ASC", $tag, $season, $isLeagueWar);
+            df_three_star ASC", $tag, $season, $isLeagueWar, $orderByCustomize);
 
         return [
             'season' => $season,
