@@ -11,4 +11,6 @@ $dispatcher->addRouter('get', '/currentWarData', 'coc\controller\DataController'
 $dispatcher->addRouter('get', '/leagueGroupWarDataClanInfo', 'coc\controller\DataController', 'getCurrentSeasonLeagueWarClanInfo');
 $dispatcher->addRouter('post', '/currentWarData', 'coc\controller\DataController', 'getCurrentSeasonClanWarData');
 $dispatcher->addRouter('get', '/currentWarDataClanInfo', 'coc\controller\DataController', 'getClanInfo');
+$dispatcher->addRouter('get', '/miniProgram/msgCallback', 'coc\controller\MiniProgramController', 'getMsgCallback');
+$dispatcher->addRouter('post', '/miniProgram/msgCallback', 'coc\controller\MiniProgramController', 'postMsgCallback');
 $dispatcher->dispatch();
