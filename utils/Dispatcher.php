@@ -23,6 +23,9 @@ class Dispatcher
     {
         $requestType = strtolower($_SERVER['REQUEST_METHOD']);
         $urlPath     = $_SERVER['REQUEST_URI'];
+        if ($requestType == 'get') {
+            $urlPath = strtok($urlPath, '?');
+        }
         if (!isset(self::$routes[$requestType][$urlPath])) {
             Response::displayPage(ROOT . DIRECTORY_SEPARATOR . "frontend" . DIRECTORY_SEPARATOR . "errors" . DIRECTORY_SEPARATOR . "404.html");
         }
