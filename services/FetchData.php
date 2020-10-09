@@ -16,7 +16,7 @@ class FetchData
         $isLeagueWar = $_POST['league'] ?: 0;
         $orderByCustomize = $isLeagueWar ? "total_star_gained desc," : "";
         $sql = sprintf("SELECT
-            ccm.name,
+            cp.name,
             ccwm.attack_no_star_time AS at_no_star,
             ccwm.attack_one_star_time AS at_one_star,
             ccwm.attack_two_star_time AS at_two_star,
@@ -30,7 +30,7 @@ class FetchData
         FROM
             coc_report_clan_war_member ccwm 
             JOIN coc_clans cc on cc.tag = ccwm.clan_tag 
-            JOIN coc_clan_members ccm ON ccwm.member_tag = ccm.tag 
+            JOIN coc_players cp ON ccwm.member_tag = cp.tag 
         WHERE
             ccwm.clan_tag = '%s' 
             AND ccwm.season = '%s' 
