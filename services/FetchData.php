@@ -25,19 +25,22 @@ class FetchData
             ccwm.attack_time_left AS at_time_left,
             ccwm.attack_time_used AS at_time_used,
             ccwm.total_attack_star as total_star_get,
-            ccwm.total_defense_star as total_star_lose, 
+            ccwm.total_defense_star as total_star_lose,
+            ccwm.total_attack_percentage as total_attack_percentage,
             ccwm.total_attack_star - ccwm.total_defense_star as total_star_gained 
         FROM
-            coc_report_clan_war_member ccwm 
+            coc_clan_war_members ccwm 
             JOIN coc_clans cc on cc.tag = ccwm.clan_tag 
             JOIN coc_players cp ON ccwm.member_tag = cp.tag 
         WHERE
             ccwm.clan_tag = '%s' 
             AND ccwm.season = '%s' 
             and ccwm.is_league_war = %d
+            and ccwm.is_seasonaly_report = 1
         ORDER BY
             %s
             at_three_star DESC,
+            total_attack_percentage DESC,
             at_two_star DESC,
             at_one_star DESC,
             at_no_star DESC,
